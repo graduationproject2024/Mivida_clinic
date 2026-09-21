@@ -1,0 +1,758 @@
+ ⚠ For production Image Optimization with Next.js, the optional 'sharp' package is strongly recommended. Run 'npm i sharp', and Next.js will use it automatically for Image Optimization.
+Read more: https://nextjs.org/docs/messages/sharp-missing-in-production
+ ⨯ Page changed from static to dynamic at runtime /apple-touch-icon.png, reason: headers
+see more here https://nextjs.org/docs/messages/app-static-to-dynamic-error
+    at l (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\948.js:1:37206)
+    at h (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:130669)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125698
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125775
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at f (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:126288)
+    at get requestLocale (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127865)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\75.js:21:3999
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127873
+ ⨯ Page changed from static to dynamic at runtime /apple-touch-icon.png, reason: headers
+see more here https://nextjs.org/docs/messages/app-static-to-dynamic-error
+    at l (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\948.js:1:37206)
+    at h (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:130669)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125698
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125775
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at f (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:126288)
+    at get requestLocale (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127865)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\75.js:21:3999
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127873
+ ⨯ Page changed from static to dynamic at runtime /apple-touch-icon.png, reason: headers
+see more here https://nextjs.org/docs/messages/app-static-to-dynamic-error
+    at l (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\948.js:1:37206)
+    at h (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:130669)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125698
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125775
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at f (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:126288)
+    at get requestLocale (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127865)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\75.js:21:3999
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127873
+ ⨯ Page changed from static to dynamic at runtime /apple-touch-icon.png, reason: headers
+see more here https://nextjs.org/docs/messages/app-static-to-dynamic-error
+    at l (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\948.js:1:37206)
+    at h (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:130669)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125698
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125775
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at f (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:126288)
+    at get requestLocale (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127865)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\75.js:21:3999
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127873
+ ⨯ Page changed from static to dynamic at runtime /apple-touch-icon.png, reason: headers
+see more here https://nextjs.org/docs/messages/app-static-to-dynamic-error
+    at l (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\948.js:1:37206)
+    at h (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:130669)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125698
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125775
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at f (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:126288)
+    at get requestLocale (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127865)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\75.js:21:3999
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127873
+ ⨯ Page changed from static to dynamic at runtime /apple-touch-icon.png, reason: headers
+see more here https://nextjs.org/docs/messages/app-static-to-dynamic-error
+    at l (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\948.js:1:37206)
+    at h (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:130669)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125698
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125775
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at f (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:126288)
+    at get requestLocale (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127865)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\75.js:21:3999
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127873
+ ⨯ Page changed from static to dynamic at runtime /apple-touch-icon.png, reason: headers
+see more here https://nextjs.org/docs/messages/app-static-to-dynamic-error
+    at l (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\948.js:1:37206)
+    at h (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:130669)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125698
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125775
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at f (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:126288)
+    at get requestLocale (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127865)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\75.js:21:3999
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127873
+ ⨯ Page changed from static to dynamic at runtime /apple-touch-icon.png, reason: headers
+see more here https://nextjs.org/docs/messages/app-static-to-dynamic-error
+    at l (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\948.js:1:37206)
+    at h (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:130669)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125698
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125775
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at f (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:126288)
+    at get requestLocale (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127865)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\75.js:21:3999
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127873
+ ⨯ Page changed from static to dynamic at runtime /apple-touch-icon.png, reason: headers
+see more here https://nextjs.org/docs/messages/app-static-to-dynamic-error
+    at l (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\948.js:1:37206)
+    at h (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:130669)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125698
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125775
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at f (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:126288)
+    at get requestLocale (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127865)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\75.js:21:3999
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127873
+ ⨯ Page changed from static to dynamic at runtime /apple-touch-icon.png, reason: headers
+see more here https://nextjs.org/docs/messages/app-static-to-dynamic-error
+    at l (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\948.js:1:37206)
+    at h (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:130669)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125698
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125775
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at f (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:126288)
+    at get requestLocale (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127865)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\75.js:21:3999
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127873
+ ⨯ Page changed from static to dynamic at runtime /apple-touch-icon.png, reason: headers
+see more here https://nextjs.org/docs/messages/app-static-to-dynamic-error
+    at l (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\948.js:1:37206)
+    at h (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:130669)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125698
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125775
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at f (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:126288)
+    at get requestLocale (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127865)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\75.js:21:3999
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127873
+ ⨯ Page changed from static to dynamic at runtime /apple-touch-icon.png, reason: headers
+see more here https://nextjs.org/docs/messages/app-static-to-dynamic-error
+    at l (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\948.js:1:37206)
+    at h (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:130669)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125698
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125775
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at f (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:126288)
+    at get requestLocale (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127865)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\75.js:21:3999
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127873
+ ⨯ Page changed from static to dynamic at runtime /apple-touch-icon.png, reason: headers
+see more here https://nextjs.org/docs/messages/app-static-to-dynamic-error
+    at l (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\948.js:1:37206)
+    at h (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:130669)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125698
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125775
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at f (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:126288)
+    at get requestLocale (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127865)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\75.js:21:3999
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127873
+ ⨯ Page changed from static to dynamic at runtime /apple-touch-icon.png, reason: headers
+see more here https://nextjs.org/docs/messages/app-static-to-dynamic-error
+    at l (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\948.js:1:37206)
+    at h (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:130669)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125698
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125775
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at f (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:126288)
+    at get requestLocale (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127865)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\75.js:21:3999
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127873
+ ⨯ Page changed from static to dynamic at runtime /apple-touch-icon.png, reason: headers
+see more here https://nextjs.org/docs/messages/app-static-to-dynamic-error
+    at l (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\948.js:1:37206)
+    at h (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:130669)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125698
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125775
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at f (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:126288)
+    at get requestLocale (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127865)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\75.js:21:3999
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127873
+ ⨯ Page changed from static to dynamic at runtime /apple-touch-icon.png, reason: headers
+see more here https://nextjs.org/docs/messages/app-static-to-dynamic-error
+    at l (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\948.js:1:37206)
+    at h (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:130669)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125698
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125775
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at f (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:126288)
+    at get requestLocale (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127865)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\75.js:21:3999
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127873
+ ⨯ Page changed from static to dynamic at runtime /apple-touch-icon.png, reason: headers
+see more here https://nextjs.org/docs/messages/app-static-to-dynamic-error
+    at l (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\948.js:1:37206)
+    at h (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:130669)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125698
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125775
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at f (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:126288)
+    at get requestLocale (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127865)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\75.js:21:3999
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127873
+ ⨯ Page changed from static to dynamic at runtime /apple-touch-icon.png, reason: headers
+see more here https://nextjs.org/docs/messages/app-static-to-dynamic-error
+    at l (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\948.js:1:37206)
+    at h (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:130669)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125698
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125775
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at f (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:126288)
+    at get requestLocale (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127865)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\75.js:21:3999
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127873
+ ⨯ Page changed from static to dynamic at runtime /apple-touch-icon.png, reason: headers
+see more here https://nextjs.org/docs/messages/app-static-to-dynamic-error
+    at l (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\948.js:1:37206)
+    at h (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:130669)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125698
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125775
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at f (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:126288)
+    at get requestLocale (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127865)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\75.js:21:3999
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127873
+ ⨯ Page changed from static to dynamic at runtime /apple-touch-icon.png, reason: headers
+see more here https://nextjs.org/docs/messages/app-static-to-dynamic-error
+    at l (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\948.js:1:37206)
+    at h (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:130669)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125698
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125775
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at f (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:126288)
+    at get requestLocale (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127865)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\75.js:21:3999
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127873
+ ⨯ Page changed from static to dynamic at runtime /apple-touch-icon.png, reason: headers
+see more here https://nextjs.org/docs/messages/app-static-to-dynamic-error
+    at l (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\948.js:1:37206)
+    at h (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:130669)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125698
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125775
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at f (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:126288)
+    at get requestLocale (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127865)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\75.js:21:3999
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127873
+ ⨯ Page changed from static to dynamic at runtime /apple-touch-icon.png, reason: headers
+see more here https://nextjs.org/docs/messages/app-static-to-dynamic-error
+    at l (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\948.js:1:37206)
+    at h (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:130669)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125698
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125775
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at f (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:126288)
+    at get requestLocale (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127865)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\75.js:21:3999
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127873
+ ⨯ Page changed from static to dynamic at runtime /apple-touch-icon.png, reason: headers
+see more here https://nextjs.org/docs/messages/app-static-to-dynamic-error
+    at l (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\948.js:1:37206)
+    at h (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:130669)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125698
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125775
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at f (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:126288)
+    at get requestLocale (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127865)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\75.js:21:3999
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127873
+ ⨯ Page changed from static to dynamic at runtime /apple-touch-icon.png, reason: headers
+see more here https://nextjs.org/docs/messages/app-static-to-dynamic-error
+    at l (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\948.js:1:37206)
+    at h (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:130669)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125698
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125775
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at f (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:126288)
+    at get requestLocale (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127865)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\75.js:21:3999
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127873
+ ⨯ Page changed from static to dynamic at runtime /apple-touch-icon.png, reason: headers
+see more here https://nextjs.org/docs/messages/app-static-to-dynamic-error
+    at l (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\948.js:1:37206)
+    at h (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:130669)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125698
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125775
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at f (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:126288)
+    at get requestLocale (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127865)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\75.js:21:3999
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127873
+ ⨯ Page changed from static to dynamic at runtime /apple-touch-icon.png, reason: headers
+see more here https://nextjs.org/docs/messages/app-static-to-dynamic-error
+    at l (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\948.js:1:37206)
+    at h (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:130669)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125698
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125775
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at f (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:126288)
+    at get requestLocale (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127865)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\75.js:21:3999
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127873
+ ⨯ Page changed from static to dynamic at runtime /apple-touch-icon.png, reason: headers
+see more here https://nextjs.org/docs/messages/app-static-to-dynamic-error
+    at l (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\948.js:1:37206)
+    at h (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:130669)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125698
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125775
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at f (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:126288)
+    at get requestLocale (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127865)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\75.js:21:3999
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127873
+ ⨯ Page changed from static to dynamic at runtime /apple-touch-icon.png, reason: headers
+see more here https://nextjs.org/docs/messages/app-static-to-dynamic-error
+    at l (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\948.js:1:37206)
+    at h (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:130669)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125698
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125775
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at f (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:126288)
+    at get requestLocale (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127865)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\75.js:21:3999
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127873
+ ⨯ Page changed from static to dynamic at runtime /apple-touch-icon.png, reason: headers
+see more here https://nextjs.org/docs/messages/app-static-to-dynamic-error
+    at l (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\948.js:1:37206)
+    at h (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:130669)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125698
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125775
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at f (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:126288)
+    at get requestLocale (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127865)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\75.js:21:3999
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127873
+ ⨯ Page changed from static to dynamic at runtime /apple-touch-icon.png, reason: headers
+see more here https://nextjs.org/docs/messages/app-static-to-dynamic-error
+    at l (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\948.js:1:37206)
+    at h (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:130669)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125698
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125775
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at f (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:126288)
+    at get requestLocale (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127865)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\75.js:21:3999
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127873
+ ⨯ Page changed from static to dynamic at runtime /apple-touch-icon.png, reason: headers
+see more here https://nextjs.org/docs/messages/app-static-to-dynamic-error
+    at l (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\948.js:1:37206)
+    at h (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:130669)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125698
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125775
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at f (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:126288)
+    at get requestLocale (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127865)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\75.js:21:3999
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127873
+ ⨯ Page changed from static to dynamic at runtime /apple-touch-icon.png, reason: headers
+see more here https://nextjs.org/docs/messages/app-static-to-dynamic-error
+    at l (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\948.js:1:37206)
+    at h (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:130669)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125698
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125775
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at f (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:126288)
+    at get requestLocale (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127865)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\75.js:21:3999
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127873
+ ⨯ Page changed from static to dynamic at runtime /apple-touch-icon.png, reason: headers
+see more here https://nextjs.org/docs/messages/app-static-to-dynamic-error
+    at l (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\948.js:1:37206)
+    at h (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:130669)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125698
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125775
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at f (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:126288)
+    at get requestLocale (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127865)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\75.js:21:3999
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127873
+ ⨯ Page changed from static to dynamic at runtime /apple-touch-icon.png, reason: headers
+see more here https://nextjs.org/docs/messages/app-static-to-dynamic-error
+    at l (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\948.js:1:37206)
+    at h (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:130669)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125698
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125775
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at f (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:126288)
+    at get requestLocale (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127865)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\75.js:21:3999
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127873
+ ⨯ Page changed from static to dynamic at runtime /apple-touch-icon.png, reason: headers
+see more here https://nextjs.org/docs/messages/app-static-to-dynamic-error
+    at l (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\948.js:1:37206)
+    at h (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:130669)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125698
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125775
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at f (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:126288)
+    at get requestLocale (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127865)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\75.js:21:3999
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127873
+ ⨯ Page changed from static to dynamic at runtime /apple-touch-icon.png, reason: headers
+see more here https://nextjs.org/docs/messages/app-static-to-dynamic-error
+    at l (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\948.js:1:37206)
+    at h (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:130669)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125698
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125775
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at f (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:126288)
+    at get requestLocale (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127865)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\75.js:21:3999
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127873
+ ⨯ Page changed from static to dynamic at runtime /apple-touch-icon.png, reason: headers
+see more here https://nextjs.org/docs/messages/app-static-to-dynamic-error
+    at l (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\948.js:1:37206)
+    at h (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:130669)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125698
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125775
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at f (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:126288)
+    at get requestLocale (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127865)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\75.js:21:3999
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127873
+ ⨯ Page changed from static to dynamic at runtime /apple-touch-icon.png, reason: headers
+see more here https://nextjs.org/docs/messages/app-static-to-dynamic-error
+    at l (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\948.js:1:37206)
+    at h (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:130669)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125698
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125775
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at f (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:126288)
+    at get requestLocale (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127865)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\75.js:21:3999
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127873
+ ⨯ Page changed from static to dynamic at runtime /apple-touch-icon.png, reason: headers
+see more here https://nextjs.org/docs/messages/app-static-to-dynamic-error
+    at l (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\948.js:1:37206)
+    at h (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:130669)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125698
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125775
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at f (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:126288)
+    at get requestLocale (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127865)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\75.js:21:3999
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127873
+ ⨯ Page changed from static to dynamic at runtime /apple-touch-icon.png, reason: headers
+see more here https://nextjs.org/docs/messages/app-static-to-dynamic-error
+    at l (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\948.js:1:37206)
+    at h (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:130669)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125698
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125775
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at f (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:126288)
+    at get requestLocale (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127865)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\75.js:21:3999
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127873
+ ⨯ Page changed from static to dynamic at runtime /apple-touch-icon.png, reason: headers
+see more here https://nextjs.org/docs/messages/app-static-to-dynamic-error
+    at l (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\948.js:1:37206)
+    at h (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:130669)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125698
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125775
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at f (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:126288)
+    at get requestLocale (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127865)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\75.js:21:3999
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127873
+ ⨯ Page changed from static to dynamic at runtime /apple-touch-icon.png, reason: headers
+see more here https://nextjs.org/docs/messages/app-static-to-dynamic-error
+    at l (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\948.js:1:37206)
+    at h (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:130669)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125698
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125775
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at f (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:126288)
+    at get requestLocale (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127865)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\75.js:21:3999
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127873
+ ⨯ Page changed from static to dynamic at runtime /apple-touch-icon.png, reason: headers
+see more here https://nextjs.org/docs/messages/app-static-to-dynamic-error
+    at l (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\948.js:1:37206)
+    at h (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:130669)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125698
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125775
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at f (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:126288)
+    at get requestLocale (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127865)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\75.js:21:3999
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127873
+ ⨯ Page changed from static to dynamic at runtime /apple-touch-icon.png, reason: headers
+see more here https://nextjs.org/docs/messages/app-static-to-dynamic-error
+    at l (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\948.js:1:37206)
+    at h (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:130669)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125698
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125775
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at f (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:126288)
+    at get requestLocale (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127865)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\75.js:21:3999
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127873
+ ⨯ Page changed from static to dynamic at runtime /apple-touch-icon.png, reason: headers
+see more here https://nextjs.org/docs/messages/app-static-to-dynamic-error
+    at l (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\948.js:1:37206)
+    at h (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:130669)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125698
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125775
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at f (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:126288)
+    at get requestLocale (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127865)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\75.js:21:3999
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127873
+ ⨯ Page changed from static to dynamic at runtime /apple-touch-icon.png, reason: headers
+see more here https://nextjs.org/docs/messages/app-static-to-dynamic-error
+    at l (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\948.js:1:37206)
+    at h (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:130669)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125698
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125775
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at f (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:126288)
+    at get requestLocale (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127865)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\75.js:21:3999
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127873
+ ⨯ Page changed from static to dynamic at runtime /apple-touch-icon.png, reason: headers
+see more here https://nextjs.org/docs/messages/app-static-to-dynamic-error
+    at l (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\948.js:1:37206)
+    at h (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:130669)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125698
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125775
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at f (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:126288)
+    at get requestLocale (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127865)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\75.js:21:3999
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127873
+ ⨯ Page changed from static to dynamic at runtime /apple-touch-icon.png, reason: headers
+see more here https://nextjs.org/docs/messages/app-static-to-dynamic-error
+    at l (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\948.js:1:37206)
+    at h (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:130669)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125698
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125775
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at f (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:126288)
+    at get requestLocale (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127865)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\75.js:21:3999
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127873
+ ⨯ Page changed from static to dynamic at runtime /apple-touch-icon.png, reason: headers
+see more here https://nextjs.org/docs/messages/app-static-to-dynamic-error
+    at l (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\948.js:1:37206)
+    at h (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:130669)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125698
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125775
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at f (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:126288)
+    at get requestLocale (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127865)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\75.js:21:3999
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127873
+ ⨯ Page changed from static to dynamic at runtime /apple-touch-icon.png, reason: headers
+see more here https://nextjs.org/docs/messages/app-static-to-dynamic-error
+    at l (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\948.js:1:37206)
+    at h (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:130669)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125698
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125775
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at f (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:126288)
+    at get requestLocale (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127865)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\75.js:21:3999
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127873
+ ⨯ Page changed from static to dynamic at runtime /apple-touch-icon.png, reason: headers
+see more here https://nextjs.org/docs/messages/app-static-to-dynamic-error
+    at l (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\948.js:1:37206)
+    at h (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:130669)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125698
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125775
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at f (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:126288)
+    at get requestLocale (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127865)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\75.js:21:3999
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127873
+ ⨯ Page changed from static to dynamic at runtime /apple-touch-icon.png, reason: headers
+see more here https://nextjs.org/docs/messages/app-static-to-dynamic-error
+    at l (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\948.js:1:37206)
+    at h (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:130669)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125698
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125775
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at f (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:126288)
+    at get requestLocale (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127865)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\75.js:21:3999
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127873
+ ⨯ Page changed from static to dynamic at runtime /apple-touch-icon.png, reason: headers
+see more here https://nextjs.org/docs/messages/app-static-to-dynamic-error
+    at l (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\948.js:1:37206)
+    at h (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:130669)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125698
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125775
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at f (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:126288)
+    at get requestLocale (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127865)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\75.js:21:3999
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127873
+ ⨯ Page changed from static to dynamic at runtime /apple-touch-icon.png, reason: headers
+see more here https://nextjs.org/docs/messages/app-static-to-dynamic-error
+    at l (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\948.js:1:37206)
+    at h (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:130669)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125698
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125775
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at f (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:126288)
+    at get requestLocale (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127865)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\75.js:21:3999
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127873
+ ⨯ Page changed from static to dynamic at runtime /apple-touch-icon.png, reason: headers
+see more here https://nextjs.org/docs/messages/app-static-to-dynamic-error
+    at l (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\948.js:1:37206)
+    at h (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:130669)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125698
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125775
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at f (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:126288)
+    at get requestLocale (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127865)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\75.js:21:3999
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127873
+ ⨯ Page changed from static to dynamic at runtime /apple-touch-icon.png, reason: headers
+see more here https://nextjs.org/docs/messages/app-static-to-dynamic-error
+    at l (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\948.js:1:37206)
+    at h (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:130669)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125698
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125775
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at f (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:126288)
+    at get requestLocale (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127865)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\75.js:21:3999
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127873
+ ⨯ Page changed from static to dynamic at runtime /apple-touch-icon.png, reason: headers
+see more here https://nextjs.org/docs/messages/app-static-to-dynamic-error
+    at l (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\948.js:1:37206)
+    at h (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:130669)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125698
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125775
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at f (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:126288)
+    at get requestLocale (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127865)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\75.js:21:3999
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127873
+ ⨯ Page changed from static to dynamic at runtime /apple-touch-icon.png, reason: headers
+see more here https://nextjs.org/docs/messages/app-static-to-dynamic-error
+    at l (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\948.js:1:37206)
+    at h (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:130669)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125698
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125775
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at f (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:126288)
+    at get requestLocale (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127865)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\75.js:21:3999
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127873
+ ⨯ Page changed from static to dynamic at runtime /apple-touch-icon.png, reason: headers
+see more here https://nextjs.org/docs/messages/app-static-to-dynamic-error
+    at l (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\948.js:1:37206)
+    at h (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:130669)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125698
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125775
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at f (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:126288)
+    at get requestLocale (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127865)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\75.js:21:3999
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127873
+ ⨯ Page changed from static to dynamic at runtime /apple-touch-icon.png, reason: headers
+see more here https://nextjs.org/docs/messages/app-static-to-dynamic-error
+    at l (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\948.js:1:37206)
+    at h (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:130669)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125698
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125775
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at f (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:126288)
+    at get requestLocale (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127865)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\75.js:21:3999
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127873
+ ⨯ Page changed from static to dynamic at runtime /apple-touch-icon.png, reason: headers
+see more here https://nextjs.org/docs/messages/app-static-to-dynamic-error
+    at l (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\948.js:1:37206)
+    at h (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:130669)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125698
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125775
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at f (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:126288)
+    at get requestLocale (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127865)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\75.js:21:3999
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127873
+ ⨯ Page changed from static to dynamic at runtime /apple-touch-icon.png, reason: headers
+see more here https://nextjs.org/docs/messages/app-static-to-dynamic-error
+    at l (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\948.js:1:37206)
+    at h (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:130669)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125698
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125775
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at f (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:126288)
+    at get requestLocale (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127865)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\75.js:21:3999
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127873
+ ⨯ Page changed from static to dynamic at runtime /apple-touch-icon.png, reason: headers
+see more here https://nextjs.org/docs/messages/app-static-to-dynamic-error
+    at l (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\948.js:1:37206)
+    at h (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:130669)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125698
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:125775
+    at C:\Users\sam20\mivida-clinic-website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:186465
+    at f (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:126288)
+    at get requestLocale (C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127865)
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\75.js:21:3999
+    at C:\Users\sam20\mivida-clinic-website\.next\server\chunks\778.js:1:127873

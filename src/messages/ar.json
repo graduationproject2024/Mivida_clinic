@@ -1,0 +1,217 @@
+﻿{
+  "common": {
+    "clinicName": "Mivida Clinic",
+    "clinicNameAr": "عيادة Mivida",
+    "doctorName": "Dr. Norhan Yousry",
+    "doctorNameAr": "د. نورهان يسري",
+    "bookAppointment": "احجز موعدك",
+    "bookAppointmentAr": "احجز موعدك",
+    "contactUs": "تواصل معنا",
+    "contactUsAr": "تواصل معنا",
+    "whatsapp": "واتساب",
+    "call": "اتصال",
+    "getDirections": "الحصول على الاتجاهات",
+    "learnMore": "اعرف المزيد",
+    "learnMoreAr": "اعرف المزيد",
+    "loading": "جاري التحميل…",
+    "error": "حدث خطأ",
+    "close": "إغلاق",
+    "back": "رجوع",
+    "next": "التالي",
+    "previous": "السابق",
+    "submit": "إرسال",
+    "sending": "جاري الإرسال…",
+    "sent": "تم الإرسال",
+    "required": "مطلوب",
+    "optional": "اختياري"
+  },
+  "navigation": {
+    "home": "الرئيسية",
+    "homeAr": "الرئيسية",
+    "services": "الخدمات",
+    "servicesAr": "الخدمات",
+    "about": "عن الدكتورة",
+    "aboutAr": "عن الدكتورة",
+    "beforeAfter": "قبل وبعد",
+    "beforeAfterAr": "قبل وبعد",
+    "contact": "تواصل معنا",
+    "contactAr": "تواصل معنا",
+    "language": "العربية / English"
+  },
+  "hero": {
+    "headline": "عناية متخصصة ببشرتك وشعرك وجمالك",
+    "headlineAr": "عناية متخصصة ببشرتك وشعرك وجمالك",
+    "subtext": "علاجات جلدية وتجميلية احترافية مصممة لاحتياجاتك الفريدة",
+    "subtextAr": "علاجات جلدية وتجميلية احترافية مصممة لاحتياجاتك الفريدة",
+    "primaryCta": "احجز موعدك",
+    "primaryCtaAr": "احجز موعدك",
+    "secondaryCta": "تواصل معنا عبر واتساب",
+    "secondaryCtaAr": "تواصل معنا عبر واتساب"
+  },
+  "services": {
+    "title": "خدماتنا",
+    "titleAr": "خدماتنا",
+    "subtitle": "علاجات جلدية وتجميلية شاملة",
+    "subtitleAr": "علاجات جلدية وتجميلية شاملة",
+    "viewAll": "عرض جميع الخدمات",
+    "viewAllAr": "عرض جميع الخدمات"
+  },
+  "doctor": {
+    "title": "تعرف على الدكتورة",
+    "titleAr": "تعرف على الدكتورة",
+    "subtitle": "خبرة متخصصة في الجلدية والتجميل",
+    "subtitleAr": "خبرة متخصصة في الجلدية والتجميل"
+  },
+  "beforeAfter": {
+    "title": "قبل وبعد",
+    "titleAr": "قبل وبعد",
+    "subtitle": "نتائج حقيقية من عيادتنا",
+    "subtitleAr": "نتائج حقيقية من عيادتنا",
+    "viewCase": "عرض الحالة",
+    "viewCaseAr": "عرض الحالة",
+    "before": "قبل",
+    "beforeAr": "قبل",
+    "after": "بعد",
+    "afterAr": "بعد",
+    "disclaimer": "تختلف النتائج من شخص لآخر. هذه الصور تمثل حالات فردية ولا تضمن نتائج محددة.",
+    "disclaimerAr": "تختلف النتائج من شخص لآخر. هذه الصور تمثل حالات فردية ولا تضمن نتائج محددة."
+  },
+  "whyMivida": {
+    "title": "لماذا تختار عيادة Mivida",
+    "titleAr": "لماذا تختار عيادة Mivida",
+    "items": [
+      {
+        "title": "خبرة طبية",
+        "titleAr": "خبرة طبية",
+        "description": "رعاية بقيادة أخصائية مع علاجات قائمة على الأدلة",
+        "descriptionAr": "رعاية بقيادة أخصائية مع علاجات قائمة على الأدلة"
+      },
+      {
+        "title": "تقنيات حديثة",
+        "titleAr": "تقنيات حديثة",
+        "description": "أحدث الأجهزة والتقنيات للنتائج المثلى",
+        "descriptionAr": "أحدث الأجهزة والتقنيات للنتائج المثلى"
+      },
+      {
+        "title": "رعاية شخصية",
+        "titleAr": "رعاية شخصية",
+        "description": "خطط علاجية مصممة لاحتياجاتك الفريدة",
+        "descriptionAr": "خطط علاجية مصممة لاحتياجاتك الفريدة"
+      },
+      {
+        "title": "السلامة أولاً",
+        "titleAr": "السلامة أولاً",
+        "description": "بروتوكولات صارمة وأعلى معايير السلامة",
+        "descriptionAr": "بروتوكولات صارمة وأعلى معايير السلامة"
+      }
+    ]
+  },
+  "appointment": {
+    "title": "احجز موعدك",
+    "titleAr": "احجز موعدك",
+    "subtitle": "اختر وقتك المفضل. ستؤكد العيادة الموعد عبر واتساب.",
+    "subtitleAr": "اختر وقتك المفضل. ستؤكد العيادة الموعد عبر واتساب.",
+    "form": {
+      "name": "الاسم الكامل",
+      "nameAr": "الاسم الكامل",
+      "namePlaceholder": "أدخل اسمك الكامل",
+      "namePlaceholderAr": "أدخل اسمك الكامل",
+      "phone": "رقم الهاتف",
+      "phoneAr": "رقم الهاتف",
+      "phonePlaceholder": "01XXXXXXXXX",
+      "phonePlaceholderAr": "01XXXXXXXXX",
+      "service": "الخدمة",
+      "serviceAr": "الخدمة",
+      "servicePlaceholder": "اختر خدمة",
+      "servicePlaceholderAr": "اختر خدمة",
+      "day": "اليوم المفضل",
+      "dayAr": "اليوم المفضل",
+      "dayPlaceholder": "اختر يوماً",
+      "dayPlaceholderAr": "اختر يوماً",
+      "time": "الوقت المفضل",
+      "timeAr": "الوقت المفضل",
+      "timePlaceholder": "اختر وقتاً",
+      "timePlaceholderAr": "اختر وقتاً",
+      "notes": "ملاحظات (اختياري)",
+      "notesAr": "ملاحظات (اختياري)",
+      "notesPlaceholder": "أي مخاوف أو طلبات محددة",
+      "notesPlaceholderAr": "أي مخاوف أو طلبات محددة",
+      "submit": "إرسال إلى واتساب",
+      "submitAr": "إرسال إلى واتساب",
+      "whatsappSelect": "اختر رقم واتساب",
+      "whatsappSelectAr": "اختر رقم واتساب",
+      "disclaimer": "هذا طلب موعد. ستؤكد العيادة الموعد عبر واتساب.",
+      "disclaimerAr": "هذا طلب موعد. ستؤكد العيادة الموعد عبر واتساب.",
+      "errors": {
+        "nameTooShort": "الاسم يجب أن يكون حرفين على الأقل",
+        "phoneInvalid": "يرجى إدخال رقم موبايل مصري صحيح (01XXXXXXXXX)",
+        "serviceRequired": "يرجى اختيار الخدمة",
+        "dayRequired": "يرجى اختيار اليوم المفضل",
+        "timeRequired": "يرجى اختيار الوقت المفضل",
+        "notesTooLong": "يجب ألا تتجاوز الملاحظات 500 حرف"
+      }
+    },
+    "confirmation": {
+      "title": "تم إرسال الطلب",
+      "titleAr": "تم إرسال الطلب",
+      "message": "تم إرسال طلب موعدك. ستتواصل معك العيادة عبر واتساب للتأكيد.",
+      "messageAr": "تم إرسال طلب موعدك. ستتواصل معك العيادة عبر واتساب للتأكيد.",
+      "copyMessage": "نسخ الرسالة",
+      "copyMessageAr": "نسخ الرسالة",
+      "messageCopied": "تم نسخ الرسالة إلى الحافظة",
+      "messageCopiedAr": "تم نسخ الرسالة إلى الحافظة",
+      "backHome": "العودة للرئيسية",
+      "backHomeAr": "العودة للرئيسية"
+    }
+  },
+  "contact": {
+    "title": "تواصل معنا",
+    "titleAr": "تواصل معنا",
+    "subtitle": "نحن هنا للمساعدة. تواصل معنا بالطريقة الأنسب لك.",
+    "subtitleAr": "نحن هنا للمساعدة. تواصل معنا بالطريقة الأنسب لك.",
+    "phone": "الهاتف",
+    "phoneAr": "الهاتف",
+    "whatsapp": "واتساب",
+    "whatsappAr": "واتساب",
+    "address": "العنوان",
+    "addressAr": "العنوان",
+    "workingHours": "ساعات العمل",
+    "workingHoursAr": "ساعات العمل",
+    "followUs": "تابعنا",
+    "followUsAr": "تابعنا",
+    "mapLink": "فتح في خرائط جوجل",
+    "mapLinkAr": "فتح في خرائط جوجل",
+    "mapJumpLabel": "انتقل إلى الخريطة",
+    "mapJumpLabelAr": "انتقل إلى الخريطة"
+  },
+  "footer": {
+    "description": "رعاية متخصصة في الجلدية والتجميل في طنطا.",
+    "descriptionAr": "رعاية متخصصة في الجلدية والتجميل في طنطا.",
+    "quickLinks": "روابط سريعة",
+    "quickLinksAr": "روابط سريعة",
+    "services": "الخدمات",
+    "servicesAr": "الخدمات",
+    "contactInfo": "معلومات التواصل",
+    "contactInfoAr": "معلومات التواصل",
+    "workingHours": "ساعات العمل",
+    "workingHoursAr": "ساعات العمل",
+    "followUs": "تابعنا",
+    "followUsAr": "تابعنا",
+    "rights": "جميع الحقوق محفوظة.",
+    "rightsAr": "جميع الحقوق محفوظة."
+  },
+  "notFound": {
+    "title": "الصفحة غير موجودة",
+    "titleAr": "الصفحة غير موجودة",
+    "message": "عذراً، لم نتمكن من العثور على الصفحة التي تبحث عنها.",
+    "messageAr": "عذراً، لم نتمكن من العثور على الصفحة التي تبحث عنها.",
+    "backHome": "العودة للرئيسية",
+    "backHomeAr": "العودة للرئيسية"
+  },
+  "seo": {
+    "defaultTitle": "عيادة Mivida | جلدية وتجميل في طنطا",
+    "defaultTitleAr": "عيادة Mivida | جلدية وتجميل في طنطا",
+    "defaultDescription": "علاجات جلدية وتجميلية احترافية في عيادة Mivida، طنطا. فيلر، بوتوكس، ليزر، بلازما، والمزيد.",
+    "defaultDescriptionAr": "علاجات جلدية وتجميلية احترافية في عيادة Mivida، طنطا. فيلر، بوتوكس، ليزر، بلازما، والمزيد."
+  }
+}

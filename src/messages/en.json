@@ -1,0 +1,218 @@
+﻿{
+  "common": {
+    "clinicName": "Mivida Clinic",
+    "clinicNameAr": "عيادة Mivida",
+    "doctorName": "Dr. Norhan Yousry",
+    "doctorNameAr": "د. نورهان يسري",
+    "bookAppointment": "Book Appointment",
+    "bookAppointmentAr": "احجز موعدك",
+    "contactUs": "Contact Us",
+    "contactUsAr": "تواصل معنا",
+    "whatsapp": "WhatsApp",
+    "call": "Call",
+    "getDirections": "Get Directions",
+    "learnMore": "Learn More",
+    "learnMoreAr": "اعرف المزيد",
+    "loading": "Loading…",
+    "error": "An error occurred",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "submit": "Submit",
+    "sending": "Sending…",
+    "sent": "Sent",
+    "required": "Required",
+    "optional": "Optional"
+  },
+  "navigation": {
+    "home": "Home",
+    "homeAr": "الرئيسية",
+    "services": "Services",
+    "servicesAr": "الخدمات",
+    "about": "About Doctor",
+    "aboutAr": "عن الدكتورة",
+    "beforeAfter": "Before & After",
+    "beforeAfterAr": "قبل وبعد",
+    "contact": "Contact",
+    "contactAr": "تواصل معنا",
+    "language": "العربية / English"
+  },
+  "hero": {
+    "headline": "Specialized Care for Your Skin, Hair & Beauty",
+    "headlineAr": "عناية متخصصة ببشرتك وشعرك وجمالك",
+    "subtext": "Professional dermatology and aesthetic treatments tailored to your unique needs",
+    "subtextAr": "علاجات جلدية وتجميلية احترافية مصممة لاحتياجاتك الفريدة",
+    "primaryCta": "Book Your Appointment",
+    "primaryCtaAr": "احجز موعدك",
+    "secondaryCta": "Contact via WhatsApp",
+    "secondaryCtaAr": "تواصل معنا عبر واتساب"
+  },
+  "services": {
+    "title": "Our Services",
+    "titleAr": "خدماتنا",
+    "subtitle": "Comprehensive dermatology and aesthetic treatments",
+    "subtitleAr": "علاجات جلدية وتجميلية شاملة",
+    "viewAll": "View All Services",
+    "viewAllAr": "عرض جميع الخدمات"
+  },
+  "doctor": {
+    "title": "Meet Our Doctor",
+    "titleAr": "تعرف على الدكتورة",
+    "subtitle": "Specialized expertise in dermatology and aesthetics",
+    "subtitleAr": "خبرة متخصصة في الجلدية والتجميل"
+  },
+  "beforeAfter": {
+    "title": "Before & After",
+    "titleAr": "قبل وبعد",
+    "subtitle": "Real results from our clinic",
+    "subtitleAr": "نتائج حقيقية من عيادتنا",
+    "viewCase": "View Case",
+    "viewCaseAr": "عرض الحالة",
+    "before": "Before",
+    "beforeAr": "قبل",
+    "after": "After",
+    "afterAr": "بعد",
+    "disclaimer": "Results may vary. These images represent individual cases and do not guarantee specific outcomes.",
+    "disclaimerAr": "تختلف النتائج من شخص لآخر. هذه الصور تمثل حالات فردية ولا تضمن نتائج محددة."
+  },
+  "whyMivida": {
+    "title": "Why Choose Mivida Clinic",
+    "titleAr": "لماذا تختار عيادة Mivida",
+    "items": [
+      {
+        "title": "Medical Expertise",
+        "titleAr": "خبرة طبية",
+        "description": "Specialist-led care with evidence-based treatments",
+        "descriptionAr": "رعاية بقيادة أخصائية مع علاجات قائمة على الأدلة"
+      },
+      {
+        "title": "Modern Technology",
+        "titleAr": "تقنيات حديثة",
+        "description": "Latest devices and techniques for optimal results",
+        "descriptionAr": "أحدث الأجهزة والتقنيات للنتائج المثلى"
+      },
+      {
+        "title": "Personalized Care",
+        "titleAr": "رعاية شخصية",
+        "description": "Treatment plans tailored to your unique needs",
+        "descriptionAr": "خطط علاجية مصممة لاحتياجاتك الفريدة"
+      },
+      {
+        "title": "Safety First",
+        "titleAr": "السلامة أولاً",
+        "description": "Strict protocols and highest safety standards",
+        "descriptionAr": "بروتوكولات صارمة وأعلى معايير السلامة"
+      }
+    ]
+  },
+  "appointment": {
+    "title": "Book Appointment",
+    "titleAr": "احجز موعدك",
+    "subtitle": "Request your preferred time. The clinic will confirm via WhatsApp.",
+    "subtitleAr": "اختر وقتك المفضل. ستؤكد العيادة الموعد عبر واتساب.",
+    "form": {
+      "name": "Full Name",
+      "nameAr": "الاسم الكامل",
+      "namePlaceholder": "Enter your full name",
+      "namePlaceholderAr": "أدخل اسمك الكامل",
+      "phone": "Phone Number",
+      "phoneAr": "رقم الهاتف",
+      "phonePlaceholder": "01XXXXXXXXX",
+      "phonePlaceholderAr": "01XXXXXXXXX",
+      "service": "Service",
+      "serviceAr": "الخدمة",
+      "servicePlaceholder": "Select a service",
+      "servicePlaceholderAr": "اختر خدمة",
+      "day": "Preferred Day",
+      "dayAr": "اليوم المفضل",
+      "dayPlaceholder": "Select a day",
+      "dayPlaceholderAr": "اختر يوماً",
+      "time": "Preferred Time",
+      "timeAr": "الوقت المفضل",
+      "timePlaceholder": "Select a time",
+      "timePlaceholderAr": "اختر وقتاً",
+      "notes": "Notes (Optional)",
+      "notesAr": "ملاحظات (اختياري)",
+      "notesPlaceholder": "Any specific concerns or requests",
+      "notesPlaceholderAr": "أي مخاوف أو طلبات محددة",
+      "submit": "Send to WhatsApp",
+      "submitAr": "إرسال إلى واتساب",
+      "whatsappSelect": "Choose WhatsApp Number",
+      "whatsappSelectAr": "اختر رقم واتساب",
+      "disclaimer": "This is an appointment request. The clinic will confirm the appointment through WhatsApp.",
+      "disclaimerAr": "هذا طلب موعد. ستؤكد العيادة الموعد عبر واتساب.",
+      "errors": {
+        "nameTooShort": "Name must be at least 2 characters",
+        "phoneInvalid": "Please enter a valid Egyptian mobile number (01XXXXXXXXX)",
+        "serviceRequired": "Please select a service",
+        "dayRequired": "Please select a preferred day",
+        "timeRequired": "Please select a preferred time",
+        "notesTooLong": "Notes must be 500 characters or less"
+      }
+    },
+    "confirmation": {
+      "title": "Request Sent",
+      "titleAr": "تم إرسال الطلب",
+      "message": "Your appointment request has been sent. The clinic will contact you via WhatsApp to confirm.",
+      "messageAr": "تم إرسال طلب موعدك. ستتواصل معك العيادة عبر واتساب للتأكيد.",
+      "copyMessage": "Copy Message",
+      "copyMessageAr": "نسخ الرسالة",
+      "messageCopied": "Message copied to clipboard",
+      "messageCopiedAr": "تم نسخ الرسالة إلى الحافظة",
+      "backHome": "Back to Home",
+      "backHomeAr": "العودة للرئيسية"
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "titleAr": "تواصل معنا",
+    "subtitle": "We're here to help. Reach out any way that's convenient for you.",
+    "subtitleAr": "نحن هنا للمساعدة. تواصل معنا بالطريقة الأنسب لك.",
+    "phone": "Phone",
+    "phoneAr": "الهاتف",
+    "whatsapp": "WhatsApp",
+    "whatsappAr": "واتساب",
+    "address": "Address",
+    "addressAr": "العنوان",
+    "workingHours": "Working Hours",
+    "workingHoursAr": "ساعات العمل",
+    "followUs": "Follow Us",
+    "followUsAr": "تابعنا",
+    "mapLink": "Open in Google Maps",
+    "mapJumpLabel": "Show map",
+    "mapLinkAr": "فتح في خرائط جوجل",
+    "mapJumpLabel": "Jump to map",
+    "mapJumpLabelAr": "انتقل إلى الخريطة"
+  },
+  "footer": {
+    "description": "Specialized dermatology and aesthetic care in Tanta.",
+    "descriptionAr": "رعاية متخصصة في الجلدية والتجميل في طنطا.",
+    "quickLinks": "Quick Links",
+    "quickLinksAr": "روابط سريعة",
+    "services": "Services",
+    "servicesAr": "الخدمات",
+    "contactInfo": "Contact Info",
+    "contactInfoAr": "معلومات التواصل",
+    "workingHours": "Working Hours",
+    "workingHoursAr": "ساعات العمل",
+    "followUs": "Follow Us",
+    "followUsAr": "تابعنا",
+    "rights": "All rights reserved.",
+    "rightsAr": "جميع الحقوق محفوظة."
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "titleAr": "الصفحة غير موجودة",
+    "message": "Sorry, we couldn't find the page you're looking for.",
+    "messageAr": "عذراً، لم نتمكن من العثور على الصفحة التي تبحث عنها.",
+    "backHome": "Back to Home",
+    "backHomeAr": "العودة للرئيسية"
+  },
+  "seo": {
+    "defaultTitle": "Mivida Clinic | Dermatology & Aesthetics in Tanta",
+    "defaultTitleAr": "عيادة Mivida | جلدية وتجميل في طنطا",
+    "defaultDescription": "Professional dermatology and aesthetic treatments at Mivida Clinic, Tanta. Filler, Botox, Laser, PRP, and more.",
+    "defaultDescriptionAr": "علاجات جلدية وتجميلية احترافية في عيادة Mivida، طنطا. فيلر، بوتوكس، ليزر، بلازما، والمزيد."
+  }
+}
