@@ -266,7 +266,7 @@ export function ContactContent({ locale }: ContactContentProps) {
           <div className="relative aspect-[16/9] md:aspect-[21/9] rounded-2xl overflow-hidden border border-border shadow-sm">
             <iframe
               title={locale === 'ar' ? 'خريطة موقع عيادة ميفيدا' : 'Mivida Clinic Location Map'}
-              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13735.617462319293!2d31.0004!3d30.7865!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f7c9e0d1d2b8b9%3A0x6d8b9d3b6f00713!2z2LnZitin2K_YqSBNaXZpZGE!5e0!3m2!1sar!2seg!4v1700000000000!5m2!1sar!2seg"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d214.21791080917404!2d30.99956587889606!3d30.788986446448995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f7c9006269687b%3A0xe3a56adc6cf4bc13!2sMivida%20Clinic!5e0!3m2!1sar!2seg!4v1790639482425!5m2!1sar!2seg"
               width="100%"
               height="100%"
               style={{ border: 0, position: 'absolute', inset: 0 }}

@@ -8,7 +8,7 @@ export const clinic = {
       ar: 'طنطا، شارع البحر مع أحمد ماهر، أعلى توكيل سامسونج، المدخل بجوار توكيل vivo، الدور الثاني',
       en: 'Tanta, El Bahr St. with Ahmed Maher, Above Samsung Agency, Entrance next to vivo Agency, 2nd Floor',
     },
-    googleMapsUrl: 'https://www.google.com/maps/search/?api=1&query=30.7865,31.0004',
+    googleMapsUrl: 'https://maps.app.goo.gl/aKiLVjebkfjJHNqW8',
   },
   phone: '0403408500',
   whatsappNumbers: ['01556423361', '01508192424'],

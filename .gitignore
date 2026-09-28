@@ -49,3 +49,5 @@ playwright-report/
 
 # vitest
 vitest.config.ts.timestamp-*.pid-*.log
+.vercel
+.env*
