@@ -271,7 +271,7 @@ export function AppointmentForm({ locale }: AppointmentFormProps) {
                       </div>
                       <div>
                         <p className="font-medium text-text">WhatsApp</p>
-                        <p className="text-sm text-text/60 font-mono">{num.display}</p>
+                        <p className="text-sm text-text-muted font-mono">{num.display}</p>
                       </div>
                     </div>
                     <ChevronRight className={cn('w-5 h-5 text-text/40', isRtl && '-rotate-180')} aria-hidden="true" />

@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from 'next';
 import { Manrope, Alexandria } from 'next/font/google';
+import { getLocale } from 'next-intl/server';
 import '../styles/globals.css';
 
 const manrope = Manrope({
@@ -92,13 +93,20 @@ export const metadata: Metadata = {
   manifest: '/site.webmanifest',
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
+  let locale = 'en';
+  try {
+    locale = await getLocale();
+  } catch (error) {
+    // Fallback if accessed outside of localized route wrapper
+  }
+  
   return (
-    <html lang="ar" dir="rtl" className={`${manrope.variable} ${alexandria.variable}`}>
+    <html lang={locale} dir={locale === 'ar' ? 'rtl' : 'ltr'} className={`${manrope.variable} ${alexandria.variable}`}>
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />

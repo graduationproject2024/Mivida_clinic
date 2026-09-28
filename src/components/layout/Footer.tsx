@@ -45,14 +45,14 @@ export function Footer({ locale, messages }: FooterProps) {
   
   return (
     <footer className="bg-text text-white" role="contentinfo">
-      <div className="container-custom py-16 lg:py-20">
+      <div className="container-custom pt-16 pb-28 md:py-16 lg:py-20">
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-5">
           <div className="lg:col-span-2 space-y-6">
             <Link href={`/${locale}`} className="inline-flex items-center gap-3" aria-label={locale === 'ar' ? 'عيادة Mivida - الرئيسية' : 'Mivida Clinic - Home'}>
               <Logo className="h-11 w-11" />
               <span className="text-2xl font-bold text-white">Mivida Clinic</span>
             </Link>
-            <p className="text-text/70 text-base leading-relaxed max-w-xs">
+            <p className="text-white/70 text-base leading-relaxed max-w-xs">
               {locale === 'ar' 
                 ? 'رعاية متخصصة في الجلدية والتجميل والليزر في طنطا. نقدم أحدث العلاجات بأعلى معايير الجودة والسلامة.'
                 : 'Specialized dermatology, aesthetics and laser care in Tanta. Offering the latest treatments with highest quality and safety standards.'
@@ -63,7 +63,7 @@ export function Footer({ locale, messages }: FooterProps) {
                 href={clinic.social.facebook}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-text/60 hover:text-white transition-colors"
+                className="text-white/60 hover:text-white transition-colors"
                 aria-label="Facebook"
               >
                 <Facebook className="w-5 h-5" />
@@ -72,7 +72,7 @@ export function Footer({ locale, messages }: FooterProps) {
                 href={clinic.social.instagram}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-text/60 hover:text-white transition-colors"
+                className="text-white/60 hover:text-white transition-colors"
                 aria-label="Instagram"
               >
                 <Instagram className="w-5 h-5" />
@@ -81,7 +81,7 @@ export function Footer({ locale, messages }: FooterProps) {
                 href={clinic.social.tiktok}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-text/60 hover:text-white transition-colors"
+                className="text-white/60 hover:text-white transition-colors"
                 aria-label="TikTok"
               >
                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M12.545,2.448c0.219,0,0.438,0,0.657,0.001c2.574,0.007,4.652,2.104,4.658,4.677v4.294v4.669c0,2.574-2.101,4.671-4.677,4.678c-2.551,0.003-4.622-2.082-4.65-4.651v-4.721v-4.222C7.897,4.56,10,2.452,12.545,2.448 M18.857,10.952c-0.148,1.596-0.93,3.117-2.179,4.229c1.149-0.073,2.236-0.448,3.161-1.087c-0.966-0.982-1.635-2.252-2.026-3.678C19.314,10.115,19.106,10.522,18.857,10.952z M15.257,16.638c1.228,0.359,2.152,1.153,2.42,2.143c-1.732,0.432-3.479,0.497-4.85,0.038c0.286-0.612,0.593-1.251,0.778-1.906C13.612,16.53,14.408,16.417,15.257,16.638z M5.935,6.849c0.886,0,1.765-0.246,2.552-0.693C9.042,5.701,8.526,4.841,7.631,4.289C6.621,3.674,5.422,3.417,4.207,3.56c1.069,1.148,1.728,2.535,1.728,4.012C5.944,7.601,5.941,7.228,5.935,6.849z"/></svg>
@@ -98,7 +98,7 @@ export function Footer({ locale, messages }: FooterProps) {
                 <li key={service.key}>
                   <Link
                     href={`/${locale}${service.href}`}
-                    className="text-text/70 hover:text-white transition-colors text-sm"
+                    className="text-white/70 hover:text-white transition-colors text-sm"
                   >
                     {locale === 'ar' ? getServiceName(service.key) : getServiceName(service.key)}
                   </Link>
@@ -113,22 +113,22 @@ export function Footer({ locale, messages }: FooterProps) {
             </h2>
             <ul className="space-y-2" role="list">
               <li>
-                <Link href={`/${locale}/about`} className="text-text/70 hover:text-white transition-colors text-sm">
+                <Link href={`/${locale}/about`} className="text-white/70 hover:text-white transition-colors text-sm">
                   {locale === 'ar' ? 'عن الدكتورة' : 'About Doctor'}
                 </Link>
               </li>
               <li>
-                <Link href={`/${locale}/before-after`} className="text-text/70 hover:text-white transition-colors text-sm">
+                <Link href={`/${locale}/before-after`} className="text-white/70 hover:text-white transition-colors text-sm">
                   {locale === 'ar' ? 'قبل وبعد' : 'Before & After'}
                 </Link>
               </li>
               <li>
-                <Link href={`/${locale}/appointment`} className="text-text/70 hover:text-white transition-colors text-sm">
+                <Link href={`/${locale}/appointment`} className="text-white/70 hover:text-white transition-colors text-sm">
                   {locale === 'ar' ? 'احجز موعدك' : 'Book Appointment'}
                 </Link>
               </li>
               <li>
-                <Link href={`/${locale}/contact`} className="text-text/70 hover:text-white transition-colors text-sm">
+                <Link href={`/${locale}/contact`} className="text-white/70 hover:text-white transition-colors text-sm">
                   {locale === 'ar' ? 'تواصل معنا' : 'Contact Us'}
                 </Link>
               </li>
@@ -139,7 +139,7 @@ export function Footer({ locale, messages }: FooterProps) {
             <h2 id="footer-contact" className="font-semibold text-white">
               {locale === 'ar' ? 'معلومات التواصل' : 'Contact Info'}
             </h2>
-            <address className="space-y-3 not-italic text-text/70 text-sm leading-relaxed">
+            <address className="space-y-3 not-italic text-white/70 text-sm leading-relaxed">
               <div className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 flex-shrink-0 mt-0.5 text-gold" aria-hidden="true" />
                 <div>
@@ -157,7 +157,7 @@ export function Footer({ locale, messages }: FooterProps) {
                 <Clock className="w-5 h-5 flex-shrink-0 text-gold" aria-hidden="true" />
                 <div>
                   <p className="font-medium text-white">{locale === 'ar' ? 'ساعات العمل' : 'Working Hours'}</p>
-                  <p className="text-text/60">
+                  <p className="text-white/60">
                     {getHoursSummary()}
                   </p>
                 </div>
@@ -167,10 +167,10 @@ export function Footer({ locale, messages }: FooterProps) {
         </div>
         
         <div className="mt-12 pt-8 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="text-text/60 text-sm">
+          <p className="text-white/60 text-sm">
             © {new Date().getFullYear()} Mivida Clinic. {locale === 'ar' ? 'جميع الحقوق محفوظة.' : 'All rights reserved.'}
           </p>
-          <span className="text-text/60 text-sm text-center">
+          <span className="text-white/60 text-sm text-center">
             {locale === 'ar' ? 'Mivida Clinic · طنطا' : 'Mivida Clinic · Tanta'}
           </span>
         </div>

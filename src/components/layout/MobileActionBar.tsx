@@ -127,7 +127,7 @@ export function MobileActionBar({ locale, messages }: MobileActionBarProps) {
               aria-label={locale === 'ar' ? 'اختر رقم واتساب' : 'Choose WhatsApp number'}
             >
               <div className="bg-white rounded-xl border border-border shadow-lg p-2">
-                <p className="px-3 py-2 text-sm font-medium text-text/60 border-b border-border">
+                <p className="px-3 py-2 text-sm font-medium text-text-muted border-b border-border">
                   {locale === 'ar' ? 'اختر رقم واتساب للتواصل' : 'Choose WhatsApp number'}
                 </p>
                 <div className="divide-y divide-border">

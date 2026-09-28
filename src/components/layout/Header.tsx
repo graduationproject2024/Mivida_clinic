@@ -8,6 +8,7 @@ import { cn } from '@/lib/utils';
 import { useTranslations } from 'next-intl';
 import { Logo } from '@/components/brand/Logo';
 import { locales } from '@/lib/i18n';
+import { Button, ButtonLink } from '@/components/ui/Button';
 
 interface HeaderProps {
   locale: 'ar' | 'en';
@@ -109,11 +110,15 @@ export function Header({ locale }: HeaderProps) {
           </div>
           
           <div className="hidden md:flex md:items-center md:gap-3">
-            <div className="relative" role="combobox" aria-label="Select language" aria-expanded={showLangDropdown} aria-controls="lang-menu">
+            <div className="relative">
               <button
                 type="button"
                 className="flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium text-text/80 hover:text-primary hover:bg-primary/5 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary"
                 onClick={() => setShowLangDropdown(!showLangDropdown)}
+                role="combobox"
+                aria-label="Select language"
+                aria-expanded={showLangDropdown}
+                aria-controls="lang-menu"
                 aria-haspopup="listbox"
               >
                 <Globe className="w-4 h-4" aria-hidden="true" />
@@ -149,13 +154,15 @@ export function Header({ locale }: HeaderProps) {
               )}
             </div>
             
-            <Link
+            <ButtonLink
               href={`/${locale}/appointment`}
-              className="btn-primary btn-sm whitespace-nowrap"
+              variant="primary"
+              size="md"
+              className="whitespace-nowrap px-4 py-2 text-sm"
               onClick={closeMobileMenu}
             >
               {locale === 'ar' ? 'احجز موعدك' : 'Book Appointment'}
-            </Link>
+            </ButtonLink>
           </div>
           
           <button
@@ -242,16 +249,18 @@ export function Header({ locale }: HeaderProps) {
                   English
                 </button>
               </div>
-              <Link
+              <ButtonLink
                 href={`/${locale}/appointment`}
-                className="btn-primary btn-lg mx-4 mt-4 w-full"
+                variant="primary"
+                size="lg"
+                className="mx-4 mt-4 w-[calc(100%-2rem)]"
                 onClick={closeMobileMenu}
               >
                 {locale === 'ar' ? 'احجز موعدك' : 'Book Appointment'}
-              </Link>
+              </ButtonLink>
             </nav>
             <div className="p-4 border-t border-border">
-              <p className="text-sm text-text/60 text-center">
+              <p className="text-sm text-text-muted text-center">
                 {locale === 'ar' ? 'Mivida Clinic - جميع الحقوق محفوظة' : 'Mivida Clinic - All rights reserved'}
               </p>
             </div>

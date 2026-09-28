@@ -4,7 +4,6 @@ import { NextIntlClientProvider } from 'next-intl';
 import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/layout/Footer';
 import { MobileActionBar } from '@/components/layout/MobileActionBar';
-import { DocumentAttributes } from '@/components/layout/DocumentAttributes';
 import { locales, type Locale } from '@/lib/i18n';
 
 interface LocaleLayoutProps {
@@ -29,7 +28,6 @@ export default async function LocaleLayout({ children, params }: LocaleLayoutPro
 
   return (
     <NextIntlClientProvider messages={messages}>
-      <DocumentAttributes locale={locale} />
       <Header locale={locale} />
       <main className="flex-1">{children}</main>
       <Footer locale={locale} messages={messages} />

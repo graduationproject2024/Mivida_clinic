@@ -1,4 +1,4 @@
-﻿'use client';
+'use client';
 
 import { forwardRef, type ButtonHTMLAttributes, type AnchorHTMLAttributes } from 'react';
 import Link from 'next/link';
@@ -13,10 +13,10 @@ const base =
 
 const variants: Record<Variant, string> = {
   primary:
-    'bg-primary text-white hover:bg-primary-dark shadow-sm hover:shadow-md',
+    'bg-primary text-white hover:bg-primary-deep shadow-sm hover:shadow-md',
   secondary:
     'border border-primary text-primary bg-transparent hover:bg-primary hover:text-white',
-  ghost: 'text-primary hover:text-primary-dark underline-offset-4 hover:underline',
+  ghost: 'text-primary hover:text-primary-deep underline-offset-4 hover:underline',
 };
 
 const sizes: Record<Size, string> = {

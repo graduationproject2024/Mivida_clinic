@@ -167,7 +167,7 @@ export function ContactContent({ locale }: ContactContentProps) {
                       href={clinic.social.facebook}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex h-12 w-12 items-center justify-center rounded-xl border border-border bg-white text-text/60 hover:text-primary hover:border-primary transition-colors"
+                      className="flex h-12 w-12 items-center justify-center rounded-xl border border-border bg-white text-text-muted hover:text-primary hover:border-primary transition-colors"
                       aria-label="Facebook"
                     >
                       <Facebook className="w-5 h-5" aria-hidden="true" />
@@ -178,7 +178,7 @@ export function ContactContent({ locale }: ContactContentProps) {
                       href={clinic.social.instagram}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex h-12 w-12 items-center justify-center rounded-xl border border-border bg-white text-text/60 hover:text-primary hover:border-primary transition-colors"
+                      className="flex h-12 w-12 items-center justify-center rounded-xl border border-border bg-white text-text-muted hover:text-primary hover:border-primary transition-colors"
                       aria-label="Instagram"
                     >
                       <Instagram className="w-5 h-5" aria-hidden="true" />
@@ -189,7 +189,7 @@ export function ContactContent({ locale }: ContactContentProps) {
                       href={clinic.social.tiktok}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex h-12 w-12 items-center justify-center rounded-xl border border-border bg-white text-text/60 hover:text-primary hover:border-primary transition-colors"
+                      className="flex h-12 w-12 items-center justify-center rounded-xl border border-border bg-white text-text-muted hover:text-primary hover:border-primary transition-colors"
                       aria-label="TikTok"
                     >
                       <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M12.545,2.448c0.219,0,0.438,0,0.657,0.001c2.574,0.007,4.652,2.104,4.658,4.677v4.294v4.669c0,2.574-2.101,4.671-4.677,4.678c-2.551,0.003-4.622-2.082-4.65-4.651v-4.721v-4.222C7.897,4.56,10,2.452,12.545,2.448 M18.857,10.952c-0.148,1.596-0.93,3.117-2.179,4.229c1.149-0.073,2.236-0.448,3.161-1.087c-0.966-0.982-1.635-2.252-2.026-3.678C19.314,10.115,19.106,10.522,18.857,10.952z M15.257,16.638c1.228,0.359,2.152,1.153,2.42,2.143c-1.732,0.432-3.479,0.497-4.85,0.038c0.286-0.612,0.593-1.251,0.778-1.906C13.612,16.53,14.408,16.417,15.257,16.638z M5.935,6.849c0.886,0,1.765-0.246,2.552-0.693C9.042,5.701,8.526,4.841,7.631,4.289C6.621,3.674,5.422,3.417,4.207,3.56c1.069,1.148,1.728,2.535,1.728,4.012C5.944,7.601,5.941,7.228,5.935,6.849z"/></svg>

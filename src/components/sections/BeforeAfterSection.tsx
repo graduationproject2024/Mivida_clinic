@@ -5,6 +5,7 @@ import Image from 'next/image';
 import { ChevronLeft, ChevronRight, X, ZoomIn } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { useTranslations } from 'next-intl';
+import { Button } from '@/components/ui/Button';
 
 const caseImages = [
   '/images/before-after/case-1.jpg',
@@ -75,19 +76,26 @@ export function BeforeAfterSection({ locale }: BeforeAfterSectionProps) {
 
   return (
     <>
-      <section className="section bg-white" aria-labelledby="before-after-heading">
+      <section className="section bg-neutral-warm" aria-labelledby="before-after-heading">
         <div className="container-custom">
           <header className="text-center max-w-2xl mx-auto mb-10 lg:mb-14">
-            <span className="overline">{t('subtitle')}</span>
-            <h2 id="before-after-heading" className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight mt-3 mb-4">
+            <div className="mb-6 flex items-center justify-center gap-4">
+              <div className="w-8 h-px bg-gold" aria-hidden="true" />
+              <span className="text-overline text-primary font-medium tracking-widest uppercase">
+                {t('subtitle')}
+              </span>
+              <div className="w-8 h-px bg-gold" aria-hidden="true" />
+            </div>
+            
+            <h2 id="before-after-heading" className="text-h2 font-bold text-primary-deep tracking-tight mb-4">
               {t('title')}
             </h2>
-            <p className="body text-text/70" id="before-after-disclaimer">
+            <p className="text-body text-text/70" id="before-after-disclaimer">
               {t('disclaimer')}
             </p>
           </header>
 
-          <ul className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4" role="list">
+          <ul className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 lg:gap-6" role="list">
             {caseImages.map((src, index) => (
               <li key={src}>
                 <button
@@ -115,15 +123,16 @@ export function BeforeAfterSection({ locale }: BeforeAfterSectionProps) {
             ))}
           </ul>
 
-          <div className="mt-8 text-center">
-            <button
+          <div className="mt-12 text-center flex justify-center">
+            <Button
               type="button"
               onClick={() => openModal(0)}
-              className="btn-outline"
+              variant="secondary"
+              size="md"
             >
-              <ZoomIn className="w-4 h-4" aria-hidden="true" />
+              <ZoomIn className="w-4 h-4 mr-2" aria-hidden="true" />
               {locale === 'ar' ? 'عرض بالحجم الكامل' : 'View Fullscreen'}
-            </button>
+            </Button>
           </div>
         </div>
       </section>

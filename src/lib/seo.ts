@@ -50,6 +50,7 @@ export async function generateSEO({
       languages: {
         ar: `${baseUrl}/ar${fullPath}`,
         en: `${baseUrl}/en${fullPath}`,
+        'x-default': `${baseUrl}/ar${fullPath}`,
       },
     },
     openGraph: {
