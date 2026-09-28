@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from 'next';
 import { Manrope, Alexandria } from 'next/font/google';
 import { getLocale } from 'next-intl/server';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 import '../styles/globals.css';
 
 const manrope = Manrope({
@@ -115,6 +116,7 @@ export default async function RootLayout({
       </head>
       <body className="min-h-screen bg-white text-text antialiased">
         {children}
+        <SpeedInsights />
       </body>
     </html>
   );
