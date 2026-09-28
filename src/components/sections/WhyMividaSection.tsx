@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { Award, Sparkles, Shield, HeartPulse } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 import { cn } from '@/lib/utils';
@@ -19,7 +20,7 @@ export function WhyMividaSection({ locale }: WhyMividaSectionProps) {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start">
           
           {/* Left Column: Narrative (5 columns) */}
-          <div className="lg:col-span-5 sticky top-32">
+          <div className="lg:col-span-5 lg:sticky lg:top-32">
             <div className="mb-6 flex items-center gap-4">
               <div className="w-12 h-px bg-gold" aria-hidden="true" />
               <span className="text-overline text-primary font-medium tracking-widest uppercase">
@@ -38,8 +39,14 @@ export function WhyMividaSection({ locale }: WhyMividaSectionProps) {
             </p>
             
             <div className="hidden lg:block w-full aspect-[4/3] rounded-2xl bg-cream border border-border mt-10 relative overflow-hidden">
-              <div className="absolute inset-0 bg-[url('/hero-pattern.svg')] bg-center bg-cover opacity-[0.03]" />
-              <div className="absolute inset-0 bg-gradient-to-tr from-primary/5 to-transparent" />
+              <Image
+                src="/images/before-after/after-1.jpg"
+                alt={locale === 'ar' ? 'عيادة ميفيدا' : 'Mivida Clinic'}
+                fill
+                className="object-cover"
+                sizes="(max-width: 1024px) 100vw, 50vw"
+              />
+              <div className="absolute inset-0 bg-gradient-to-tr from-primary/10 to-transparent" />
             </div>
           </div>
           

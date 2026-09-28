@@ -36,6 +36,11 @@
   [dir="rtl"] {
     font-family: var(--font-alexandria);
     text-align: right;
+    letter-spacing: normal !important;
+  }
+  
+  [dir="rtl"] * {
+    letter-spacing: normal !important;
   }
   
   [dir="ltr"] {

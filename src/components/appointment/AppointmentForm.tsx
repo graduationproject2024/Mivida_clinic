@@ -123,30 +123,33 @@ export function AppointmentForm({ locale }: AppointmentFormProps) {
   
   return (
     <article className="min-h-screen">
-      <nav className="container-custom py-4" aria-label="Breadcrumb">
-        <ol className="flex items-center gap-2 text-sm text-text/75" role="list">
-          <li>
-            <a href={`/${locale}`} className="hover:text-primary transition-colors">
-              {locale === 'ar' ? 'الرئيسية' : 'Home'}
-            </a>
-          </li>
-          <li className="flex items-center gap-2">
-            <ChevronRight className={cn('w-4 h-4', isRtl && '-rotate-180')} aria-hidden="true" />
-            <span aria-current="page">{t('title')}</span>
-          </li>
-        </ol>
-      </nav>
+      <div className="bg-gradient-to-b from-cream to-white pt-24 lg:pt-32 pb-12">
+        <nav className="container-custom mb-8" aria-label="Breadcrumb">
+          <ol className="flex items-center gap-2 text-sm text-text/75" role="list">
+            <li>
+              <a href={`/${locale}`} className="hover:text-primary transition-colors">
+                {locale === 'ar' ? 'الرئيسية' : 'Home'}
+              </a>
+            </li>
+            <li className="flex items-center gap-2">
+              <ChevronRight className={cn('w-4 h-4', isRtl && '-rotate-180')} aria-hidden="true" />
+              <span aria-current="page">{t('title')}</span>
+            </li>
+          </ol>
+        </nav>
+        
+        <header className="container-custom text-center max-w-2xl mx-auto">
+          <h1 id="appointment-heading" className="heading-md md:heading-lg mb-4 font-bold tracking-tight">
+            {t('title')}
+          </h1>
+          <p className="body-lg text-text/70">
+            {t('subtitle')}
+          </p>
+        </header>
+      </div>
       
       <section className="section bg-white" aria-labelledby="appointment-heading">
         <div className="container-custom">
-          <header className="text-center max-w-2xl mx-auto mb-10 lg:mb-14">
-            <h1 id="appointment-heading" className="heading-md md:heading-lg mb-4 font-bold tracking-tight">
-              {t('title')}
-            </h1>
-            <p className="body-lg text-text/70">
-              {t('subtitle')}
-            </p>
-          </header>
           
           {step === 'form' && (
             <form onSubmit={handleSubmit(onSubmit)} className="max-w-2xl mx-auto" noValidate>

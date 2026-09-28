@@ -36,30 +36,28 @@ export function AboutContent({ locale }: AboutContentProps) {
   
   return (
     <article className="min-h-screen">
-      <nav className="container-custom py-4" aria-label="Breadcrumb">
-        <ol className="flex items-center gap-2 text-sm text-text/75" role="list">
-          <li>
-            <a href={`/${locale}`} className="hover:text-primary transition-colors">
-              {locale === 'ar' ? 'الرئيسية' : 'Home'}
-            </a>
-          </li>
-          <li className="flex items-center gap-2">
-            <ChevronRight className={cn('w-4 h-4', isRtl && '-rotate-180')} aria-hidden="true" />
-            <span aria-current="page">{t('title')}</span>
-          </li>
-        </ol>
-      </nav>
-      
-      <header className="section bg-gradient-to-b from-cream/50 to-white">
-        <div className="container-custom">
-          <div className="max-w-3xl mx-auto text-center">
-            <span className="overline">{t('subtitle')}</span>
-            <h1 className="heading-md md:heading-lg mt-3 mb-6 font-bold tracking-tight">
-              {t('title')}
-            </h1>
-          </div>
-        </div>
-      </header>
+      <div className="bg-gradient-to-b from-cream to-white pt-24 lg:pt-32 pb-12">
+        <nav className="container-custom mb-8" aria-label="Breadcrumb">
+          <ol className="flex items-center gap-2 text-sm text-text/75" role="list">
+            <li>
+              <a href={`/${locale}`} className="hover:text-primary transition-colors">
+                {locale === 'ar' ? 'الرئيسية' : 'Home'}
+              </a>
+            </li>
+            <li className="flex items-center gap-2">
+              <ChevronRight className={cn('w-4 h-4', isRtl && '-rotate-180')} aria-hidden="true" />
+              <span aria-current="page">{t('title')}</span>
+            </li>
+          </ol>
+        </nav>
+        
+        <header className="container-custom text-center max-w-3xl mx-auto">
+          <span className="overline">{t('subtitle')}</span>
+          <h1 className="heading-md md:heading-lg mt-3 mb-6 font-bold tracking-tight">
+            {t('title')}
+          </h1>
+        </header>
+      </div>
       
       <section className="section bg-white" aria-labelledby="doctor-profile">
         <div className="container-custom">

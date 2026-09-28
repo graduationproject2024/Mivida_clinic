@@ -76,31 +76,34 @@ export function BeforeAfterContent({ locale }: BeforeAfterContentProps) {
   return (
     <>
       <article className="min-h-screen">
-        <nav className="container-custom py-4" aria-label="Breadcrumb">
-          <ol className="flex items-center gap-2 text-sm text-text/75" role="list">
-            <li>
-              <a href={`/${locale}`} className="hover:text-primary transition-colors">
-                {locale === 'ar' ? 'الرئيسية' : 'Home'}
-              </a>
-            </li>
-            <li className="flex items-center gap-2">
-              <ChevronRight className={cn('w-4 h-4', isRtl && '-rotate-180')} aria-hidden="true" />
-              <span aria-current="page">{t('title')}</span>
-            </li>
-          </ol>
-        </nav>
+        <div className="bg-gradient-to-b from-cream to-white pt-24 lg:pt-32 pb-12">
+          <nav className="container-custom mb-8" aria-label="Breadcrumb">
+            <ol className="flex items-center gap-2 text-sm text-text/75" role="list">
+              <li>
+                <a href={`/${locale}`} className="hover:text-primary transition-colors">
+                  {locale === 'ar' ? 'الرئيسية' : 'Home'}
+                </a>
+              </li>
+              <li className="flex items-center gap-2">
+                <ChevronRight className={cn('w-4 h-4', isRtl && '-rotate-180')} aria-hidden="true" />
+                <span aria-current="page">{t('title')}</span>
+              </li>
+            </ol>
+          </nav>
+
+          <header className="container-custom text-center max-w-2xl mx-auto">
+            <span className="overline">{t('subtitle')}</span>
+            <h1 id="before-after-heading" className="heading-md md:heading-lg mt-3 mb-4 font-bold tracking-tight">
+              {t('title')}
+            </h1>
+            <p className="body text-text/70" id="before-after-disclaimer">
+              {t('disclaimer')}
+            </p>
+          </header>
+        </div>
 
         <section className="section bg-white" aria-labelledby="before-after-heading">
           <div className="container-custom">
-            <header className="text-center max-w-2xl mx-auto mb-10 lg:mb-14">
-              <span className="overline">{t('subtitle')}</span>
-              <h1 id="before-after-heading" className="heading-md md:heading-lg mt-3 mb-4 font-bold tracking-tight">
-                {t('title')}
-              </h1>
-              <p className="body text-text/70" id="before-after-disclaimer">
-                {t('disclaimer')}
-              </p>
-            </header>
 
             <ul className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4" role="list">
               {caseImages.map((src, index) => (

@@ -210,29 +210,39 @@ export function ServiceDetailContent({ service, locale }: ServiceDetailContentPr
   
   return (
     <article className="min-h-screen">
-      <nav className="container-custom py-4" aria-label="Breadcrumb">
-        <ol className="flex items-center gap-2 text-sm text-text/75" role="list">
-          <li>
-            <Link href={`/${locale}`} className="hover:text-primary transition-colors">
-              {locale === 'ar' ? 'الرئيسية' : 'Home'}
-            </Link>
-          </li>
-          <li className="flex items-center gap-2">
-            <ChevronRight className={cn('w-4 h-4', isRtl && '-rotate-180')} aria-hidden="true" />
-            <Link href={`/${locale}/services`} className="hover:text-primary transition-colors">
-              {locale === 'ar' ? 'الخدمات' : 'Services'}
-            </Link>
-          </li>
-          <li className="flex items-center gap-2">
-            <ChevronRight className={cn('w-4 h-4', isRtl && '-rotate-180')} aria-hidden="true" />
-            <span aria-current="page">{getText(service.name)}</span>
-          </li>
-        </ol>
-      </nav>
-      
-      <header className="section bg-gradient-to-b from-cream/50 to-white">
+      <header className="bg-gradient-to-b from-cream to-white pt-24 lg:pt-32 pb-12">
         <div className="container-custom">
-          <div className="max-w-3xl mx-auto text-center">
+          <div className="mb-8 flex flex-col items-start gap-4">
+            <Link 
+              href={`/${locale}/services`} 
+              className="inline-flex items-center gap-2 text-sm font-medium text-text/70 hover:text-primary transition-colors"
+            >
+              <ChevronRight className={cn('w-4 h-4 rotate-180', isRtl && '-rotate-180')} aria-hidden="true" />
+              {locale === 'ar' ? 'العودة للخدمات' : 'Back to Services'}
+            </Link>
+            
+            <nav aria-label="Breadcrumb">
+              <ol className="flex items-center gap-2 text-sm text-text/75" role="list">
+                <li>
+                  <Link href={`/${locale}`} className="hover:text-primary transition-colors">
+                    {locale === 'ar' ? 'الرئيسية' : 'Home'}
+                  </Link>
+                </li>
+                <li className="flex items-center gap-2">
+                  <ChevronRight className={cn('w-4 h-4', isRtl && '-rotate-180')} aria-hidden="true" />
+                  <Link href={`/${locale}/services`} className="hover:text-primary transition-colors">
+                    {locale === 'ar' ? 'الخدمات' : 'Services'}
+                  </Link>
+                </li>
+                <li className="flex items-center gap-2">
+                  <ChevronRight className={cn('w-4 h-4', isRtl && '-rotate-180')} aria-hidden="true" />
+                  <span aria-current="page">{getText(service.name)}</span>
+                </li>
+              </ol>
+            </nav>
+          </div>
+          
+          <div className="max-w-3xl mx-auto text-center mt-8">
             <span className="overline">{getText(service.shortDescription)}</span>
             <h1 className="heading-md md:heading-lg mt-3 mb-6 font-bold tracking-tight">
               {getText(service.name)}
