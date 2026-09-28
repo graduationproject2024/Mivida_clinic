@@ -2,6 +2,8 @@ import { ArrowRight, MessageSquare } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 import { cn } from '@/lib/utils';
 import { ButtonLink } from '@/components/ui/Button';
+import { getWhatsAppUrl } from '@/lib/whatsapp';
+import { clinic } from '@/content/clinic';
 
 interface HeroProps {
   locale: 'ar' | 'en';
@@ -48,14 +50,17 @@ export function Hero({ locale }: HeroProps) {
               >
                 {t('primaryCta')}
               </ButtonLink>
-              <ButtonLink
-                href={`/${locale}/contact`}
-                variant="secondary"
-                size="lg"
-                className="w-full sm:w-auto"
+              <a
+                href={getWhatsAppUrl(
+                  clinic.whatsappNumbers[0],
+                  locale === 'ar' ? 'مرحباً عيادة Mivida، أرغب في الاستفسار.' : 'Hello Mivida Clinic, I would like to inquire.'
+                )}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 btn-secondary"
               >
                 {t('secondaryCta')}
-              </ButtonLink>
+              </a>
             </div>
           </div>
           

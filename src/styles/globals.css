@@ -20,7 +20,6 @@
   
   body {
     @apply bg-neutral-warm text-text antialiased;
-    font-family: var(--font-manrope);
     font-feature-settings: "cv02", "cv03", "cv04", "cv11";
     overscroll-behavior-y: none;
   }
@@ -39,10 +38,7 @@
     letter-spacing: normal !important;
   }
   
-  [dir="rtl"] * {
-    letter-spacing: normal !important;
-  }
-  
+
   [dir="ltr"] {
     font-family: var(--font-manrope);
     text-align: left;
@@ -86,6 +82,51 @@
   .label {
     @apply block mb-1.5 text-sm font-medium text-text;
   }
+  
+  /* Cards */
+  .card {
+    @apply bg-white rounded-2xl border border-border shadow-sm;
+  }
+  .card-hover {
+    @apply bg-white rounded-2xl border border-border shadow-sm transition-all duration-300 hover:shadow-md hover:border-primary/20;
+  }
+  
+  /* Typography component classes */
+  .heading-lg {
+    @apply text-h1 font-bold text-primary-deep;
+  }
+  .heading-md {
+    @apply text-h2 font-bold text-primary-deep;
+  }
+  .heading-sm {
+    @apply text-h3 font-bold text-text;
+  }
+  .body {
+    @apply text-body text-text;
+  }
+  .body-lg {
+    @apply text-body-lg text-text;
+  }
+  .body-sm {
+    @apply text-caption text-text;
+  }
+  .caption {
+    @apply text-caption text-text-muted;
+  }
+  .overline {
+    @apply text-caption font-medium text-primary tracking-widest uppercase;
+  }
+  
+  /* Button variants */
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg font-semibold transition-all duration-200 bg-primary text-white hover:bg-primary-deep shadow-sm hover:shadow-md px-6 py-3 text-base;
+  }
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg font-semibold transition-all duration-200 border border-primary text-primary bg-transparent hover:bg-primary hover:text-white px-6 py-3 text-base;
+  }
+  .btn-outline {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg font-medium transition-all duration-200 border border-border text-text hover:border-primary hover:text-primary px-5 py-2.5 text-sm;
+  }
 }
 
 @layer utilities {
@@ -112,6 +153,10 @@
   
   .rtl-only {
     @apply [dir="ltr"]:hidden;
+  }
+  
+  [dir="rtl"], [dir="rtl"] * {
+    letter-spacing: normal !important;
   }
   
   @media (prefers-reduced-motion: reduce) {

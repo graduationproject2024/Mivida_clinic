@@ -12,6 +12,19 @@ interface SEOProps {
   noIndex?: boolean;
 }
 
+export function getSiteUrl(): string {
+  let url = 
+    process.env.NEXT_PUBLIC_SITE_URL || 
+    (process.env.VERCEL_PROJECT_PRODUCTION_URL ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}` : null) || 
+    'https://mivida-clinic.vercel.app';
+  
+  // Strip trailing slash
+  if (url.endsWith('/')) {
+    url = url.slice(0, -1);
+  }
+  return url;
+}
+
 export async function generateSEO({
   title,
   description,
@@ -21,8 +34,11 @@ export async function generateSEO({
   images = [],
   noIndex = false,
 }: SEOProps): Promise<Metadata> {
+  const isPreview = process.env.VERCEL_ENV && process.env.VERCEL_ENV !== 'production';
+  const effectiveNoIndex = noIndex || isPreview;
+  
   const t = await getTranslations({ locale, namespace: 'seo' });
-  const baseUrl = 'https://mivida-clinic.com';
+  const baseUrl = getSiteUrl();
   const fullPath = path.startsWith('/') ? path : `/${path}`;
   const canonicalUrl = `${baseUrl}/${locale}${fullPath}`;
   
@@ -69,11 +85,11 @@ export async function generateSEO({
       images: ogImages.map(img => img.url),
     },
     robots: {
-      index: !noIndex,
-      follow: !noIndex,
+      index: !effectiveNoIndex,
+      follow: !effectiveNoIndex,
       googleBot: {
-        index: !noIndex,
-        follow: !noIndex,
+        index: !effectiveNoIndex,
+        follow: !effectiveNoIndex,
         'max-video-preview': -1,
         'max-image-preview': 'large',
         'max-snippet': -1,
@@ -90,6 +106,7 @@ export async function generateSEO({
 export function generateServiceSchema(serviceId: string, locale: 'ar' | 'en') {
   const service = services.find(s => s.id === serviceId);
   if (!service) return null;
+  const baseUrl = getSiteUrl();
   
   const name = locale === 'ar' ? service.name.ar : service.name.en;
   const description = locale === 'ar' ? service.description.ar : service.description.en;
@@ -109,12 +126,13 @@ export function generateServiceSchema(serviceId: string, locale: 'ar' | 'en') {
         streetAddress: locale === 'ar' ? clinic.location.address.ar : clinic.location.address.en,
       },
       telephone: clinic.phone,
-      url: 'https://mivida-clinic.com',
+      url: baseUrl,
     },
   };
 }
 
 export function generateClinicSchema(locale: 'ar' | 'en') {
+  const baseUrl = getSiteUrl();
   return {
     '@context': 'https://schema.org',
     '@type': 'MedicalClinic',
@@ -122,7 +140,7 @@ export function generateClinicSchema(locale: 'ar' | 'en') {
     description: locale === 'ar' 
       ? 'عيادة متخصصة في الجلدية والتجميل والليزر في طنطا'
       : 'Specialized dermatology, aesthetics and laser clinic in Tanta',
-    url: 'https://mivida-clinic.com',
+    url: baseUrl,
     telephone: clinic.phone,
     address: {
       '@type': 'PostalAddress',
@@ -144,7 +162,8 @@ export function generateClinicSchema(locale: 'ar' | 'en') {
         closes: h.close,
       })),
     sameAs: [
-      clinic.social.facebook,
+      clinic.social.facebookClinic,
+      clinic.social.facebookDoctor,
       clinic.social.instagram,
       clinic.social.tiktok,
     ],
@@ -156,7 +175,8 @@ export function generateClinicSchema(locale: 'ar' | 'en') {
   };
 }
 
-export function generateBreadcrumbSchema(items: Array<{ name: string; url: string }>) {
+export function generateBreadcrumbSchema(items: Array<{ name: string; path: string }>, locale: 'ar' | 'en') {
+  const baseUrl = getSiteUrl();
   return {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
@@ -164,7 +184,7 @@ export function generateBreadcrumbSchema(items: Array<{ name: string; url: strin
       '@type': 'ListItem',
       position: index + 1,
       name: item.name,
-      item: item.url,
+      item: `${baseUrl}/${locale}${item.path}`,
     })),
   };
 }

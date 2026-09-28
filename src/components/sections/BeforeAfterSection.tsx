@@ -13,6 +13,13 @@ const caseImages = [
   '/images/before-after/case-3.jpg',
   '/images/before-after/case-4.jpg',
   '/images/before-after/case-5.jpg',
+  '/images/before-after/482071711_618446461181517_6856901480955110058_n.jpg',
+  '/images/before-after/482239011_621791984180298_7535772327162613869_n.jpg',
+  '/images/before-after/482343915_617901074569389_6428678620370820683_n.jpg',
+  '/images/before-after/554101806_777013235324838_4203895029892298153_n.jpg',
+  '/images/before-after/605824237_853246657701495_540184883368914623_n.jpg',
+  '/images/before-after/606539070_854011997624961_2152647033265042487_n.jpg',
+  '/images/before-after/667300334_938268739199286_8786036323224670968_n.jpg',
 ];
 
 interface BeforeAfterSectionProps {

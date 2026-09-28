@@ -52,9 +52,7 @@ export function Header({ locale }: HeaderProps) {
     const path = pathname === `/${locale}`
       ? `/${newLocale}`
       : pathname.replace(`/${locale}/`, `/${newLocale}/`);
-    router.push(path);
-    setShowLangDropdown(false);
-    closeMobileMenu();
+    window.location.href = path;
   };
   
   const closeMobileMenu = () => setIsMobileMenuOpen(false);

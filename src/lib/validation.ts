@@ -13,10 +13,13 @@ export interface AppointmentFormMessages {
 export function createAppointmentSchema(m: AppointmentFormMessages) {
   return z.object({
     name: z.string().min(2, { message: m.nameTooShort }).max(100),
-    phone: z.string()
-      .min(10, { message: m.phoneInvalid })
-      .max(15)
-      .regex(/^01[0-9]{9}$/, { message: m.phoneInvalid }),
+    phone: z.preprocess(
+      (val) => typeof val === 'string' ? val.replace(/[٠-٩]/g, d => '٠١٢٣٤٥٦٧٨٩'.indexOf(d).toString()) : val,
+      z.string()
+        .min(10, { message: m.phoneInvalid })
+        .max(15)
+        .regex(/^01[0-9]{9}$/, { message: m.phoneInvalid })
+    ),
     service: z.string().min(1, { message: m.serviceRequired }),
     day: z.string().min(1, { message: m.dayRequired }),
     time: z.string().min(1, { message: m.timeRequired }),

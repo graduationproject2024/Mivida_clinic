@@ -26,9 +26,9 @@ export default async function ContactPage({ params }: ContactPageProps) {
   
   const clinicSchema = generateClinicSchema(locale);
   const breadcrumbSchema = generateBreadcrumbSchema([
-    { name: locale === 'ar' ? 'الرئيسية' : 'Home', url: `https://mivida-clinic.com/${locale}` },
-    { name: locale === 'ar' ? 'تواصل معنا' : 'Contact Us', url: `https://mivida-clinic.com/${locale}/contact` },
-  ]);
+    { name: locale === 'ar' ? 'الرئيسية' : 'Home', path: '' },
+    { name: locale === 'ar' ? 'تواصل معنا' : 'Contact Us', path: '/contact' },
+  ], locale);
   
   return (
     <>

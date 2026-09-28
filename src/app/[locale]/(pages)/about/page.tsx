@@ -26,9 +26,9 @@ export default async function AboutPage({ params }: AboutPageProps) {
   
   const clinicSchema = generateClinicSchema(locale);
   const breadcrumbSchema = generateBreadcrumbSchema([
-    { name: locale === 'ar' ? 'الرئيسية' : 'Home', url: `https://mivida-clinic.com/${locale}` },
-    { name: locale === 'ar' ? 'عن الدكتورة' : 'About Doctor', url: `https://mivida-clinic.com/${locale}/about` },
-  ]);
+    { name: locale === 'ar' ? 'الرئيسية' : 'Home', path: '' },
+    { name: locale === 'ar' ? 'عن الدكتورة' : 'About Doctor', path: '/about' },
+  ], locale);
   
   return (
     <>

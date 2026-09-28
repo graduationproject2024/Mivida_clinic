@@ -1,10 +1,11 @@
 'use client';
 
 import Link from 'next/link';
-import { ChevronRight, ArrowRight, CheckCircle, Info, AlertCircle, HelpCircle } from 'lucide-react';
+import { ChevronRight, ArrowRight, CheckCircle, Info, AlertCircle, HelpCircle, ChevronDown, Sparkles } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 import { cn } from '@/lib/utils';
 import { clinic } from '../../content/clinic';
+import { useState } from 'react';
 
 interface ServiceDetailContentProps {
   service: {
@@ -51,7 +52,7 @@ const serviceDetails: Record<string, {
   botox: {
     suitableFor: {
       ar: ['خطوط الجبهة', 'خطوط العبوس بين الحاجبين', 'خطوط الضحك حول العينين', 'خطوط الرقبة'],
-      en: ['Forehead lines', 'Frown lines between eyebrows', 'Crow’s feet around eyes', 'Neck bands'],
+      en: ['Forehead lines', 'Frown lines between eyebrows', "Crow's feet around eyes", 'Neck bands'],
     },
     experience: {
       ar: ['تقييم عضلات الوجه', 'تحديد نقاط الحقن المثلى', 'حقن سريعة باستخدام إبر دقيقة', 'بداية التحسن خلال 3-7 أيام'],
@@ -198,6 +199,7 @@ export function ServiceDetailContent({ service, locale }: ServiceDetailContentPr
   const t = useTranslations('services');
   const common = useTranslations('common');
   const isRtl = locale === 'ar';
+  const [openFaq, setOpenFaq] = useState<number | null>(null);
   const details = serviceDetails[service.id] || {
     suitableFor: { ar: [], en: [] },
     experience: { ar: [], en: [] },
@@ -210,141 +212,214 @@ export function ServiceDetailContent({ service, locale }: ServiceDetailContentPr
   
   return (
     <article className="min-h-screen">
-      <header className="bg-gradient-to-b from-cream to-white pt-24 lg:pt-32 pb-12">
-        <div className="container-custom">
-          <div className="mb-8 flex flex-col items-start gap-4">
-            <Link 
-              href={`/${locale}/services`} 
-              className="inline-flex items-center gap-2 text-sm font-medium text-text/70 hover:text-primary transition-colors"
-            >
-              <ChevronRight className={cn('w-4 h-4 rotate-180', isRtl && '-rotate-180')} aria-hidden="true" />
-              {locale === 'ar' ? 'العودة للخدمات' : 'Back to Services'}
-            </Link>
-            
-            <nav aria-label="Breadcrumb">
-              <ol className="flex items-center gap-2 text-sm text-text/75" role="list">
-                <li>
-                  <Link href={`/${locale}`} className="hover:text-primary transition-colors">
-                    {locale === 'ar' ? 'الرئيسية' : 'Home'}
-                  </Link>
-                </li>
-                <li className="flex items-center gap-2">
-                  <ChevronRight className={cn('w-4 h-4', isRtl && '-rotate-180')} aria-hidden="true" />
-                  <Link href={`/${locale}/services`} className="hover:text-primary transition-colors">
-                    {locale === 'ar' ? 'الخدمات' : 'Services'}
-                  </Link>
-                </li>
-                <li className="flex items-center gap-2">
-                  <ChevronRight className={cn('w-4 h-4', isRtl && '-rotate-180')} aria-hidden="true" />
-                  <span aria-current="page">{getText(service.name)}</span>
-                </li>
-              </ol>
-            </nav>
-          </div>
+      {/* Hero Header - matches homepage editorial feel */}
+      <header className="relative bg-neutral-warm pt-24 lg:pt-32 pb-16 lg:pb-24 overflow-hidden">
+        <div className="absolute inset-0 bg-[url('/hero-pattern.svg')] bg-center bg-cover opacity-[0.03]" aria-hidden="true" />
+        <div className="absolute top-0 end-0 w-1/3 h-full bg-cream hidden lg:block" aria-hidden="true" />
+        
+        <div className="container-custom relative z-10">
+          {/* Breadcrumb */}
+          <nav className="mb-10" aria-label="Breadcrumb">
+            <ol className="flex items-center gap-2 text-sm text-text/60" role="list">
+              <li>
+                <Link href={`/${locale}`} className="hover:text-primary transition-colors">
+                  {locale === 'ar' ? 'الرئيسية' : 'Home'}
+                </Link>
+              </li>
+              <li className="flex items-center gap-2">
+                <ChevronRight className={cn('w-4 h-4', isRtl && '-rotate-180')} aria-hidden="true" />
+                <Link href={`/${locale}/services`} className="hover:text-primary transition-colors">
+                  {locale === 'ar' ? 'الخدمات' : 'Services'}
+                </Link>
+              </li>
+              <li className="flex items-center gap-2">
+                <ChevronRight className={cn('w-4 h-4', isRtl && '-rotate-180')} aria-hidden="true" />
+                <span className="text-primary font-medium" aria-current="page">{getText(service.name)}</span>
+              </li>
+            </ol>
+          </nav>
           
-          <div className="max-w-3xl mx-auto text-center mt-8">
-            <span className="overline">{getText(service.shortDescription)}</span>
-            <h1 className="heading-md md:heading-lg mt-3 mb-6 font-bold tracking-tight">
-              {getText(service.name)}
-            </h1>
-            <p className="body-lg text-text/70">
-              {getText(service.description)}
-            </p>
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16 items-center">
+            <div className="lg:col-span-7 flex flex-col items-start text-start">
+              <div className="mb-6 flex items-center gap-4">
+                <div className="w-12 h-px bg-gold" aria-hidden="true" />
+                <span className="text-overline text-primary font-medium tracking-widest uppercase">
+                  {getText(service.shortDescription)}
+                </span>
+              </div>
+              
+              <h1 className="text-display sm:text-display max-w-2xl text-balance font-bold text-primary-deep mb-6">
+                {getText(service.name)}
+              </h1>
+              
+              <p className="text-body-lg text-text/80 max-w-lg mb-10">
+                {getText(service.description)}
+              </p>
+              
+              <Link
+                href={`/${locale}/appointment`}
+                className="inline-flex items-center justify-center gap-2 rounded-lg font-semibold transition-all duration-200 bg-primary text-white hover:bg-primary-deep shadow-sm hover:shadow-md px-8 py-4 text-lg active:scale-[0.98]"
+              >
+                {locale === 'ar' ? 'احجز استشارتك' : 'Book Consultation'}
+                <ArrowRight className={cn('w-5 h-5', isRtl && 'rotate-180')} aria-hidden="true" />
+              </Link>
+            </div>
+            
+            {/* Right decorative card - same as homepage hero */}
+            <div className="lg:col-span-5 relative hidden md:block">
+              <div className="bg-white p-8 rounded-2xl shadow-sm border border-border">
+                <div className="w-12 h-1 bg-gold mb-6 rounded-full" aria-hidden="true" />
+                <h2 className="text-h4 font-bold text-primary-deep mb-3">
+                  {locale === 'ar' ? 'مناسب لـ' : 'Suitable For'}
+                </h2>
+                <div className="flex flex-col gap-3 text-sm font-medium text-text/80">
+                  {getArray(details.suitableFor).slice(0, 4).map((item, i) => (
+                    <div key={i} className="flex items-center gap-3">
+                      <div className="w-1.5 h-1.5 rounded-full bg-primary flex-shrink-0" />
+                      <span>{item}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </header>
       
-      <section className="section bg-white" aria-labelledby="suitable-for">
+      {/* Suitable For - mobile only (desktop shows in hero card) */}
+      <section className="section bg-white md:hidden" aria-labelledby="suitable-for-mobile">
         <div className="container-custom">
-          <header className="text-center max-w-2xl mx-auto mb-10">
-            <h2 id="suitable-for" className="heading-md">
-              {locale === 'ar' ? 'مناسب لـ' : 'Suitable For'}
-            </h2>
-            <p className="body text-text/70 mt-2">
-              {locale === 'ar' 
-                ? 'هذا العلاج مناسب للحالات التالية'
-                : 'This treatment is suitable for the following conditions'
-              }
-            </p>
-          </header>
-          
-          <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 max-w-4xl mx-auto" role="list">
+          <div className="mb-8 flex items-center justify-center gap-4">
+            <div className="w-8 h-px bg-gold" aria-hidden="true" />
+            <span className="text-overline text-primary font-medium tracking-widest uppercase">
+              {locale === 'ar' ? 'الحالات المناسبة' : "Who It's For"}
+            </span>
+            <div className="w-8 h-px bg-gold" aria-hidden="true" />
+          </div>
+          <h2 id="suitable-for-mobile" className="text-h2 font-bold text-primary-deep text-center mb-10">
+            {locale === 'ar' ? 'مناسب لـ' : 'Suitable For'}
+          </h2>
+          <ul className="grid gap-4 sm:grid-cols-2 max-w-2xl mx-auto" role="list">
             {getArray(details.suitableFor).map((item, index) => (
-              <li key={index} className="flex items-start gap-3 p-4 rounded-xl bg-cream/50 hover:bg-cream transition-colors" role="listitem">
+              <li key={index} className="flex items-start gap-3 p-4 rounded-xl bg-cream/50 border border-border hover:border-primary/20 transition-colors" role="listitem">
                 <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" aria-hidden="true" />
-                <span className="body-sm text-text">{item}</span>
+                <span className="text-caption text-text">{item}</span>
               </li>
             ))}
           </ul>
         </div>
       </section>
       
+      {/* Treatment Experience - editorial grid layout */}
       <section className="section bg-cream" aria-labelledby="experience">
         <div className="container-custom">
-          <header className="text-center max-w-2xl mx-auto mb-10">
-            <h2 id="experience" className="heading-md">
-              {locale === 'ar' ? 'ما يتضمنه العلاج' : 'What the Experience Involves'}
-            </h2>
-            <p className="body text-text/70 mt-2">
-              {locale === 'ar' 
-                ? 'خطوات الجلسة العلاجية المعتادة'
-                : 'Typical treatment session steps'
-              }
-            </p>
-          </header>
-          
-          <ol className="max-w-3xl mx-auto space-y-6" role="list">
-            {getArray(details.experience).map((step, index) => (
-              <li key={index} className="flex gap-4" role="listitem">
-                <span className="flex h-10 w-10 items-center justify-center rounded-full bg-primary text-white font-bold flex-shrink-0">
-                  {index + 1}
-                </span>
-                <div className="flex-1 pt-1">
-                  <p className="body text-text">{step}</p>
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16">
+            <div className="lg:col-span-5">
+              <div className="lg:sticky lg:top-32">
+                <div className="mb-6 flex items-center gap-4">
+                  <div className="w-12 h-px bg-gold" aria-hidden="true" />
+                  <span className="text-overline text-primary font-medium tracking-widest uppercase">
+                    {locale === 'ar' ? 'خطوات العلاج' : 'Treatment Steps'}
+                  </span>
                 </div>
-              </li>
-            ))}
-          </ol>
+                <h2 id="experience" className="text-h2 font-bold text-primary-deep mb-4">
+                  {locale === 'ar' ? 'ما يتضمنه العلاج' : 'What the Experience Involves'}
+                </h2>
+                <p className="text-body-lg text-text/70">
+                  {locale === 'ar' 
+                    ? 'نتبع بروتوكولاً علاجياً دقيقاً لضمان أفضل النتائج وراحتك طوال الجلسة.'
+                    : 'We follow a precise treatment protocol to ensure the best results and your comfort throughout the session.'}
+                </p>
+              </div>
+            </div>
+            
+            <div className="lg:col-start-7 lg:col-span-6 flex flex-col gap-6">
+              {getArray(details.experience).map((step, index) => (
+                <div key={index} className="flex gap-4 sm:gap-6 group">
+                  <div className="flex-shrink-0 mt-1">
+                    <div className="w-12 h-12 flex items-center justify-center rounded-xl bg-white text-primary group-hover:bg-primary group-hover:text-white transition-colors duration-300 shadow-sm border border-border font-bold text-lg">
+                      {index + 1}
+                    </div>
+                  </div>
+                  <div className="pt-2">
+                    <p className="text-body text-text/80 leading-relaxed">{step}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
         </div>
       </section>
       
+      {/* Important Info */}
       <section className="section bg-white" aria-labelledby="important-info">
         <div className="container-custom">
-          <header className="text-center max-w-2xl mx-auto mb-10">
-            <h2 id="important-info" className="heading-md flex items-center justify-center gap-2">
-              <Info className="w-5 h-5 text-primary" aria-hidden="true" />
+          <div className="text-center max-w-2xl mx-auto mb-10 lg:mb-14">
+            <div className="mb-6 flex items-center justify-center gap-4">
+              <div className="w-8 h-px bg-gold" aria-hidden="true" />
+              <span className="text-overline text-primary font-medium tracking-widest uppercase">
+                {locale === 'ar' ? 'نصائح مهمة' : 'Important Notes'}
+              </span>
+              <div className="w-8 h-px bg-gold" aria-hidden="true" />
+            </div>
+            <h2 id="important-info" className="text-h2 font-bold text-primary-deep">
               {locale === 'ar' ? 'معلومات هامة' : 'Important Information'}
             </h2>
-          </header>
+          </div>
           
-          <ul className="max-w-3xl mx-auto space-y-3" role="list">
+          <div className="grid gap-4 sm:grid-cols-2 max-w-4xl mx-auto">
             {getArray(details.importantInfo).map((item, index) => (
-              <li key={index} className="flex items-start gap-3 p-4 rounded-lg border border-border bg-cream/30" role="listitem">
-                <AlertCircle className="w-5 h-5 text-gold flex-shrink-0 mt-0.5" aria-hidden="true" />
-                <span className="body-sm text-text">{item}</span>
-              </li>
+              <div key={index} className="flex items-start gap-4 p-5 rounded-2xl bg-cream/50 border border-border hover:border-primary/20 transition-colors">
+                <div className="w-10 h-10 flex items-center justify-center rounded-xl bg-gold/10 text-gold flex-shrink-0">
+                  <AlertCircle className="w-5 h-5" aria-hidden="true" />
+                </div>
+                <span className="text-body text-text/80 pt-1.5">{item}</span>
+              </div>
             ))}
-          </ul>
+          </div>
         </div>
       </section>
       
-      <section className="section bg-cream" aria-labelledby="faq">
+      {/* FAQs */}
+      <section className="section bg-neutral-warm" aria-labelledby="faq">
         <div className="container-custom">
-          <header className="text-center max-w-2xl mx-auto mb-10">
-            <h2 id="faq" className="heading-md flex items-center justify-center gap-2">
-              <HelpCircle className="w-5 h-5 text-primary" aria-hidden="true" />
+          <div className="text-center max-w-2xl mx-auto mb-10 lg:mb-14">
+            <div className="mb-6 flex items-center justify-center gap-4">
+              <div className="w-8 h-px bg-gold" aria-hidden="true" />
+              <span className="text-overline text-primary font-medium tracking-widest uppercase">
+                {locale === 'ar' ? 'أسئلة شائعة' : 'FAQ'}
+              </span>
+              <div className="w-8 h-px bg-gold" aria-hidden="true" />
+            </div>
+            <h2 id="faq" className="text-h2 font-bold text-primary-deep">
               {locale === 'ar' ? 'الأسئلة الشائعة' : 'Frequently Asked Questions'}
             </h2>
-          </header>
+          </div>
           
           <dl className="max-w-3xl mx-auto space-y-4">
             {details.faqs.map((faq, index) => (
-              <div key={index} className="bg-white rounded-xl border border-border overflow-hidden">
-                <dt className="p-5 font-medium text-text bg-cream/50 border-b border-border">
-                  {getText(faq.q)}
+              <div key={index} className="bg-white rounded-2xl border border-border overflow-hidden shadow-sm">
+                <dt>
+                  <button
+                    type="button"
+                    className="w-full flex items-center justify-between p-6 text-start font-semibold text-text hover:text-primary transition-colors"
+                    onClick={() => setOpenFaq(openFaq === index ? null : index)}
+                    aria-expanded={openFaq === index}
+                  >
+                    <span>{getText(faq.q)}</span>
+                    <ChevronDown className={cn(
+                      'w-5 h-5 text-primary flex-shrink-0 transition-transform duration-200',
+                      openFaq === index && 'rotate-180'
+                    )} aria-hidden="true" />
+                  </button>
                 </dt>
-                <dd className="p-5 body text-text/80">
-                  {getText(faq.a)}
+                <dd className={cn(
+                  'overflow-hidden transition-all duration-200',
+                  openFaq === index ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'
+                )}>
+                  <div className="px-6 pb-6 text-body text-text/80 border-t border-border pt-4">
+                    {getText(faq.a)}
+                  </div>
                 </dd>
               </div>
             ))}
@@ -352,24 +427,24 @@ export function ServiceDetailContent({ service, locale }: ServiceDetailContentPr
         </div>
       </section>
       
+      {/* CTA - matches homepage appointment section */}
       <section className="section bg-primary" aria-labelledby="appointment-cta">
         <div className="container-custom">
           <div className="max-w-2xl mx-auto text-center">
-            <h2 id="appointment-cta" className="heading-md !text-white mb-4">
+            <h2 id="appointment-cta" className="text-h2 font-bold text-white mb-4">
               {locale === 'ar' ? 'جاهز للبدء؟' : 'Ready to Start?'}
             </h2>
-            <p className="body-lg !text-white/90 mb-6">
+            <p className="text-body-lg text-white/90 mb-8">
               {locale === 'ar'
                 ? 'احجز استشارتك الآن ودعنا نضع خطة علاجية تناسب احتياجاتك.'
-                : 'Book your consultation now and let us create a treatment plan tailored to your needs.'
-              }
+                : 'Book your consultation now and let us create a treatment plan tailored to your needs.'}
             </p>
             <Link
               href={`/${locale}/appointment`}
-              className="inline-flex items-center gap-2 bg-white text-primary font-semibold px-8 py-4 rounded-lg hover:bg-white/90 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-primary"
+              className="inline-flex items-center gap-2 bg-white text-primary font-semibold px-8 py-4 rounded-lg hover:bg-white/90 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-primary active:scale-[0.98]"
             >
               {locale === 'ar' ? common('bookAppointmentAr') : common('bookAppointment')}
-              <ArrowRight className={cn('w-5 h-5', isRtl && '-rotate-180')} aria-hidden="true" />
+              <ArrowRight className={cn('w-5 h-5', isRtl && 'rotate-180')} aria-hidden="true" />
             </Link>
           </div>
         </div>

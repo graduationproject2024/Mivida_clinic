@@ -40,7 +40,7 @@ export function WhyMividaSection({ locale }: WhyMividaSectionProps) {
             
             <div className="hidden lg:block w-full aspect-[4/3] rounded-2xl bg-cream border border-border mt-10 relative overflow-hidden">
               <Image
-                src="/images/before-after/after-1.jpg"
+                src="/images/before-after/case-1.jpg"
                 alt={locale === 'ar' ? 'عيادة ميفيدا' : 'Mivida Clinic'}
                 fill
                 className="object-cover"
@@ -57,7 +57,7 @@ export function WhyMividaSection({ locale }: WhyMividaSectionProps) {
               return (
                 <article
                   key={index}
-                  className="flex gap-6 group"
+                  className="flex gap-4 sm:gap-6 group"
                 >
                   <div className="flex-shrink-0 mt-1">
                     <div className="w-12 h-12 flex items-center justify-center rounded-xl bg-neutral-warm text-primary group-hover:bg-primary group-hover:text-white transition-colors duration-300">

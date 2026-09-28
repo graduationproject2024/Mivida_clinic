@@ -12,6 +12,13 @@ const caseImages = [
   '/images/before-after/case-3.jpg',
   '/images/before-after/case-4.jpg',
   '/images/before-after/case-5.jpg',
+  '/images/before-after/482071711_618446461181517_6856901480955110058_n.jpg',
+  '/images/before-after/482239011_621791984180298_7535772327162613869_n.jpg',
+  '/images/before-after/482343915_617901074569389_6428678620370820683_n.jpg',
+  '/images/before-after/554101806_777013235324838_4203895029892298153_n.jpg',
+  '/images/before-after/605824237_853246657701495_540184883368914623_n.jpg',
+  '/images/before-after/606539070_854011997624961_2152647033265042487_n.jpg',
+  '/images/before-after/667300334_938268739199286_8786036323224670968_n.jpg',
 ];
 
 interface BeforeAfterContentProps {
@@ -76,42 +83,53 @@ export function BeforeAfterContent({ locale }: BeforeAfterContentProps) {
   return (
     <>
       <article className="min-h-screen">
-        <div className="bg-gradient-to-b from-cream to-white pt-24 lg:pt-32 pb-12">
-          <nav className="container-custom mb-8" aria-label="Breadcrumb">
-            <ol className="flex items-center gap-2 text-sm text-text/75" role="list">
-              <li>
-                <a href={`/${locale}`} className="hover:text-primary transition-colors">
-                  {locale === 'ar' ? 'الرئيسية' : 'Home'}
-                </a>
-              </li>
-              <li className="flex items-center gap-2">
-                <ChevronRight className={cn('w-4 h-4', isRtl && '-rotate-180')} aria-hidden="true" />
-                <span aria-current="page">{t('title')}</span>
-              </li>
-            </ol>
-          </nav>
+        {/* Hero - editorial style matching homepage */}
+        <header className="relative bg-neutral-warm pt-24 lg:pt-32 pb-16 lg:pb-24 overflow-hidden">
+          <div className="absolute inset-0 bg-[url('/hero-pattern.svg')] bg-center bg-cover opacity-[0.03]" aria-hidden="true" />
+          <div className="absolute top-0 end-0 w-1/3 h-full bg-cream hidden lg:block" aria-hidden="true" />
+          
+          <div className="container-custom relative z-10">
+            <nav className="mb-10" aria-label="Breadcrumb">
+              <ol className="flex items-center gap-2 text-sm text-text/60" role="list">
+                <li>
+                  <a href={`/${locale}`} className="hover:text-primary transition-colors">
+                    {locale === 'ar' ? 'الرئيسية' : 'Home'}
+                  </a>
+                </li>
+                <li className="flex items-center gap-2">
+                  <ChevronRight className={cn('w-4 h-4', isRtl && '-rotate-180')} aria-hidden="true" />
+                  <span className="text-primary font-medium" aria-current="page">{t('title')}</span>
+                </li>
+              </ol>
+            </nav>
+            
+            <div className="max-w-3xl">
+              <div className="mb-6 flex items-center gap-4">
+                <div className="w-12 h-px bg-gold" aria-hidden="true" />
+                <span className="text-overline text-primary font-medium tracking-widest uppercase">
+                  {t('subtitle')}
+                </span>
+              </div>
+              <h1 id="before-after-heading" className="text-display sm:text-display max-w-2xl text-balance font-bold text-primary-deep mb-6">
+                {t('title')}
+              </h1>
+              <p className="text-body-lg text-text/80 max-w-lg" id="before-after-disclaimer">
+                {t('disclaimer')}
+              </p>
+            </div>
+          </div>
+        </header>
 
-          <header className="container-custom text-center max-w-2xl mx-auto">
-            <span className="overline">{t('subtitle')}</span>
-            <h1 id="before-after-heading" className="heading-md md:heading-lg mt-3 mb-4 font-bold tracking-tight">
-              {t('title')}
-            </h1>
-            <p className="body text-text/70" id="before-after-disclaimer">
-              {t('disclaimer')}
-            </p>
-          </header>
-        </div>
-
+        {/* Gallery */}
         <section className="section bg-white" aria-labelledby="before-after-heading">
           <div className="container-custom">
-
-            <ul className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4" role="list">
+            <ul className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 lg:gap-6" role="list">
               {caseImages.map((src, index) => (
                 <li key={src}>
                   <button
                     type="button"
                     onClick={() => openModal(index)}
-                    className="group relative block w-full aspect-square rounded-2xl overflow-hidden bg-cream focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2"
+                    className="group relative block w-full aspect-square rounded-2xl overflow-hidden bg-cream border border-border hover:border-primary/20 hover:shadow-md transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2"
                     aria-label={getCaseLabel(index)}
                     aria-haspopup="dialog"
                   >
@@ -119,6 +137,7 @@ export function BeforeAfterContent({ locale }: BeforeAfterContentProps) {
                       src={src}
                       alt={getCaseLabel(index)}
                       fill
+                      priority={index < 2}
                       className="object-cover transition-transform duration-500 group-hover:scale-105"
                       sizes="(max-width: 768px) 50vw, 20vw"
                     />
@@ -133,11 +152,11 @@ export function BeforeAfterContent({ locale }: BeforeAfterContentProps) {
               ))}
             </ul>
 
-            <div className="mt-8 text-center">
+            <div className="mt-12 text-center">
               <button
                 type="button"
                 onClick={() => openModal(0)}
-                className="btn-outline"
+                className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold border border-primary text-primary bg-transparent hover:bg-primary hover:text-white transition-all duration-200 active:scale-[0.98]"
               >
                 <ZoomIn className="w-4 h-4" aria-hidden="true" />
                 {locale === 'ar' ? 'عرض بالحجم الكامل' : 'View Fullscreen'}
@@ -146,6 +165,7 @@ export function BeforeAfterContent({ locale }: BeforeAfterContentProps) {
           </div>
         </section>
 
+        {/* Modal */}
         {isModalOpen && (
           <div
             className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/95 backdrop-blur-sm animate-fade-in"

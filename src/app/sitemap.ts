@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next';
 import { services } from '../content/services';
+import { getSiteUrl } from '@/lib/seo';
 
-const baseUrl = 'https://mivida-clinic.com';
 const locales = ['ar', 'en'] as const;
 
 const staticRoutes = [
@@ -16,6 +16,7 @@ const staticRoutes = [
 const serviceRoutes = services.map(s => `/services/${s.id}`);
 
 export default function sitemap(): MetadataRoute.Sitemap {
+  const baseUrl = getSiteUrl();
   const urls: MetadataRoute.Sitemap = [];
   
   for (const locale of locales) {
@@ -29,6 +30,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
           languages: {
             ar: `${baseUrl}/ar${route}`,
             en: `${baseUrl}/en${route}`,
+            'x-default': `${baseUrl}/ar${route}`,
           },
         },
       });
@@ -44,6 +46,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
           languages: {
             ar: `${baseUrl}/ar${route}`,
             en: `${baseUrl}/en${route}`,
+            'x-default': `${baseUrl}/ar${route}`,
           },
         },
       });

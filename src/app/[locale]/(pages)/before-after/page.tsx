@@ -24,9 +24,9 @@ export default async function BeforeAfterPage({ params }: BeforeAfterPageProps) 
   const locale = resolvedParams.locale as 'ar' | 'en';
   
   const breadcrumbSchema = generateBreadcrumbSchema([
-    { name: locale === 'ar' ? 'الرئيسية' : 'Home', url: `https://mivida-clinic.com/${locale}` },
-    { name: locale === 'ar' ? 'قبل وبعد' : 'Before & After', url: `https://mivida-clinic.com/${locale}/before-after` },
-  ]);
+    { name: locale === 'ar' ? 'الرئيسية' : 'Home', path: '' },
+    { name: locale === 'ar' ? 'قبل وبعد' : 'Before & After', path: '/before-after' },
+  ], locale);
   
   return (
     <>

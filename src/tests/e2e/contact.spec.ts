@@ -25,14 +25,14 @@ test.describe('Contact Page', () => {
   });
 
   test('WhatsApp buttons work', async ({ page }) => {
-    const whatsapp = page.getByRole('button', { name: /واتساب/ }).first();
+    const whatsapp = page.getByRole('link', { name: /واتساب/ }).first();
     await expect(whatsapp).toBeVisible();
     await expect(page.getByText('0155 642 3361', { exact: true }).first()).toBeVisible();
   });
 
   test('map link works', async ({ page }) => {
-    const mapLink = page.locator('a[href*="share.google"]');
-    await expect(mapLink).toHaveAttribute('href', 'https://share.google/hD2t9OnTkN49cbsQD');
+    const mapLink = page.locator('a[href*="google.com/maps"]');
+    await expect(mapLink).toHaveAttribute('href', 'https://www.google.com/maps/search/?api=1&query=30.7865,31.0004');
   });
 
   test('social links work', async ({ page }) => {

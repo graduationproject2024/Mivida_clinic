@@ -20,6 +20,7 @@ export function Logo({ className }: LogoProps) {
         width={1369}
         height={1149}
         aria-hidden="true"
+        priority
         className="h-full w-full object-cover"
       />
     </span>

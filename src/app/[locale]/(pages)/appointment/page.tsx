@@ -25,9 +25,9 @@ export default async function AppointmentPage({ params }: AppointmentPageProps) 
   const locale = resolvedParams.locale as 'ar' | 'en';
   
   const breadcrumbSchema = generateBreadcrumbSchema([
-    { name: locale === 'ar' ? 'الرئيسية' : 'Home', url: `https://mivida-clinic.com/${locale}` },
-    { name: locale === 'ar' ? 'احجز موعدك' : 'Book Appointment', url: `https://mivida-clinic.com/${locale}/appointment` },
-  ]);
+    { name: locale === 'ar' ? 'الرئيسية' : 'Home', path: '' },
+    { name: locale === 'ar' ? 'احجز موعدك' : 'Book Appointment', path: '/appointment' },
+  ], locale);
   
   return (
     <>

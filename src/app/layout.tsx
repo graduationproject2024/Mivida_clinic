@@ -27,25 +27,15 @@ export const viewport: Viewport = {
   maximumScale: 5,
 };
 
+import { getSiteUrl } from '@/lib/seo';
+
 export const metadata: Metadata = {
-  metadataBase: new URL('https://mivida-clinic.com'),
+  metadataBase: new URL(getSiteUrl()),
   title: {
     default: 'Mivida Clinic | Dermatology & Aesthetics in Tanta',
     template: '%s | Mivida Clinic',
   },
   description: 'Professional dermatology and aesthetic treatments at Mivida Clinic, Tanta. Filler, Botox, Laser, PRP, and more.',
-  keywords: [
-    'dermatology',
-    'aesthetics',
-    'clinic',
-    'Tanta',
-    'filler',
-    'botox',
-    'laser',
-    'PRP',
-    'skin care',
-    'hair treatment',
-  ],
   authors: [{ name: 'Mivida Clinic' }],
   creator: 'Mivida Clinic',
   publisher: 'Mivida Clinic',
